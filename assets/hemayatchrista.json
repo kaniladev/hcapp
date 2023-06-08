@@ -1,0 +1,3639 @@
+[
+  {
+    "id": "Deportation_02-001",
+    "title": "Deportation 1/2",
+    "header": "You will be forced out of Greece by the Greek authorities (deportation)",
+    "template": "CH0X_02",
+    "image": "assets/chapter2/images/CH02_01-011.png",
+    "content": "You are not eligible to seek asylum status or subsidiary protection status in Greece and it is likely that you will be forced out of Greece by the Greek authorities (deportation).\n\nPlease note that there is a high chance that the Greek authorities will only deport you to Turkey and they will not be able to send you back to your country of origin or country of previous residence.",
+    "buttons": [{
+      "text": "Left",
+      "linkto": "Deportation_02-002"
+    }, {
+      "text": "Right",
+      "linkto": "Deportation_01-001"
+    }]
+  },
+
+  {
+    "id": "Deportation_02-002",
+    "title": "Deportation 2/2",
+    "header": "You will be forced out of Greece by the Greek authorities (deportation)",
+    "template": "CH0X_02",
+    "image": "assets/chapter2/images/Deportation_02-002.png",
+    "content": "Alternatively, you may check with International Organization of Migration (IOM) to see if there is a program for voluntary return to your country of origin or country of previous residence.",
+    "buttons": [{
+      "text": "Yes",
+      "linkto": "Deportation_02-003"
+    }, {
+      "text": "No",
+      "linkto": "Deportation_01-002"
+    }]
+  },
+  {
+    "id": "Deportation_02-003",
+    "title": "Please select the option of either be returned by the Greek authorities (deportation) or seek help from IOM to return you to your country of origin or country of previous residence",
+    "header": "Please select the option of either be returned by the Greek authorities (deportation) or seek help from IOM to return you to your country of origin or country of previous residence",
+    "template": "CH0X_01",
+    "image": "assets/chapter2/images/Deportation_02-003.png",
+    "content": "N/A",
+    "buttons": [{
+      "text": "Return to Turkey",
+      "linkto": "deportTurkey_02-001"
+    }, {
+      "text": "Seek help from IOM to return to country of origin",
+      "linkto": "seekIOM_02-001"
+    }]
+  },
+  {
+    "id": "deportTurkey_02-001",
+    "title": "Deport to Turkey 1/3",
+    "header": "Deport to Turkey",
+    "template": "CH0X_01",
+    "image": "assets/chapter2/images/deportTurkey_02-001.png",
+    "content": "Please approach a Police Officer or staff in the Detention Center of the First Reception and Identification Center (Moria) (actual prison) to express verbally or in writing that you do not fall under any of the asylum categories and want to leave Greece or simply withdraw your asylum application.",
+    "buttons": [{
+      "text": "Left",
+      "linkto": "deportTurkey_02-002"
+    }, {
+      "text": "Right",
+      "linkto": "deportTurkey_01-001"
+    }]
+  },
+  {
+    "id": "deportTurkey_02-002",
+    "title": "Deport to Turkey 2/3",
+    "header": "Deport to Turkey",
+    "template": "CH0X_01",
+    "image": "assets/chapter2/images/deportTurkey_02-002.png",
+    "content": "After your expression of interest that you want to leave Greece or want to withdraw your asylum application, the Hellenic Police or FRONTEX will determine the date when you will leave Greece (deportation).\n\nThe Greek authorities can most likely only return you to Turkey and there is hardly any possibility for them to send you back to your home country or country of previous residence or choice.\n\nA few days following your request to return to Turkey, the Hellenic Police or FRONTEX will embark you on a boat and send you back to Turkey.",
+    "buttons": [{
+      "text": "Left",
+      "linkto": "endAsylum_07-001"
+    }, {
+      "text": "Right",
+      "linkto": "deportTurkey_01-002"
+    }]
+  },
+  {
+    "id": "seekIOM_02-001",
+    "title": "Seek help from IOM 1/3",
+    "header": "Seek help from IOM",
+    "template": "CH0X_01",
+    "image": "assets/chapter2/images/seekIOM_02-001.png",
+    "content": "Please note you have five calendar days to benefit from Assisted Voluntary Return and Reintegration (AVRR) provided by the International Organization for Migration (IOM) if you do not qualify for asylum or subsidiary protection status in Greece.",
+    "buttons": [{
+      "text": "Left",
+      "linkto": "seekIOM_02-002"
+    }, {
+      "text": "Right",
+      "linkto": "seekIOM_01-001"
+    }]
+  },
+  {
+    "id": "seekIOM_02-002",
+    "title": "Seek help from IOM 2/3",
+    "header": "Seek help from IOM",
+    "template": "CH0X_01",
+    "image": "assets/chapter2/images/seekIOM_02-002.png",
+    "content": "Please note if you have benefited before from IOM’s Assisted Voluntary Return and Reintegration program, as you will not be able to do so for the second time.\n\nSince you have five calendar days, if you are interested in benefiting from IOM’s Assisted Voluntary Return and Reintegration program, you must indicate such interest as soon as possible by contacting IOM’s representative.",
+    "buttons": [{
+      "text": "Left",
+      "linkto": "seekIOM_02-003"
+    }, {
+      "text": "Right",
+      "linkto": "seekIOM_01-002"
+    }]
+  },
+  {
+    "id": "seekIOM_03-003",
+    "title": "Seek help from IOM 3/3",
+    "header": "Seek help from IOM",
+    "template": "CH0X_01",
+    "image": "assets/chapter2/images/seekIOM_03-003.png",
+    "content": "Please contact an employee of the International Organization for Migration (IOM) at llll or info@iom.int or +41.22.717 9111 or +41.22.798 6150 to see if there is a program to voluntarily return to your country of origin or country of previous residence.  If there is such program, IOM officials will assist you with your return to your country of origin or country of previous residence.  You may find further information on IOM through their website: https://www.iom.int/.",
+    "buttons": [{
+      "text": "Left",
+      "linkto": "endAsylum_07-001"
+    }, {
+      "text": "Right",
+      "linkto": "seekIOM_02-003"
+    }]
+  },
+  {
+    "id": "endAsylum_07-001",
+    "title": "End of Asylum",
+    "header": "End of Asylum",
+    "template": "CH0X_01",
+    "image": "assets/chapter2/images/endAsylum_07-001.png",
+    "content": "You have reached the end of the asylum process.  Thank you for your time to go through this application.  We hope you have found the information provided here useful.  We wish you all our very best!",
+    "buttons": [{
+      "text": "End of Asylum Process",
+      "linkto": ""
+    }]
+  },
+
+  {
+    "id": "R01-001",
+    "title": "Disclaimer",
+    "header": "Disclaimer",
+    "template": "R01",
+    "content" : "This app walks you through the asylum procedure in Greece and provides you with more information on the process.  Please note this app only applies for individuals who arrived in Lesvos, Greece and they did so after March 2016.  \n\nThe app is set up in a way that it is intended to be informative, while providing you full choices on how to continue at each stage of the asylum process.  \n\nYou will have the option to revert to your previous choice or start over your walk-through of the process at any point.  Despite the fact that the app tries to be as informative as possible, its content cannot cover every single aspect of the asylum process.  \n\nTherefore, once you complete your walk-through of the asylum process in the app, you are encouraged to see a lawyer to consult on your individual case.  We hope you will find the information captured in this app useful for you and your family.",
+    "buttons": [{
+      "text": "Proceed",
+      "linkto": "R02-002"
+    }, {
+      "text": "Go back to Home Screen",
+      "linkto": ""
+    }]
+  },
+
+  {
+    "id": "R02-002",
+    "title": "Introduction",
+    "header": "",
+    "template": "R02",
+    "image": "assets/registration/images/person with question mark-01.png",
+    "content": "We will be asking you 5 quick questions to be able to better help you with the asylum procedure in Lesvos, Greece.  No one else than you will ever see the answers that you provide here.  Your responses will have absolutely no impact on your asylum application.",
+    "buttons": [{
+      "text": "Confirm",
+      "linkto": "R03-003"
+    }, {
+      "text": "Go back",
+      "linkto": "R01-001"
+    }]
+  },
+
+  {
+    "id": "R03-003",
+    "title": "How old are you?",
+    "header": "How old are you?",
+    "template": "R03",
+    "image": "assets/registration/images/child & adult-01.png",
+    "content": "",
+    "buttons": [{
+      "text": "< 14",
+      "linkto": "R04-004",
+      "action" : {
+        "isMinorLess14" : 1
+      }
+    }, {
+      "text": "14 - 17",
+      "linkto": "R04-004",
+      "action" : {
+        "isMinor1417" : 1
+      }
+    }, {
+      "text": "18 - 59",
+      "linkto": "R04-004",
+      "action" : {
+        "isAdult" : 1
+      }
+    }, {
+      "text": "60+",
+      "linkto": "R04-004",
+      "action" : {
+        "isVulnerable" : 1,
+        "isSenior" : 1
+      }
+    }]
+  },
+
+  {
+    "id": "R04-004",
+    "title": "Are you traveling alone or together with your family?",
+    "header": "Are you traveling alone or together with your family?",
+    "template": "R04",
+    "image": "assets/registration/images/person & family-01.png",
+    "content": "",
+    "buttons": [{
+      "text": "Yes",
+      "linkto": "R04-005"
+    }, {
+      "text": "No",
+      "linkto": "R04-005"
+    }]
+  },
+
+  {
+    "id": "R04-005",
+    "title": "Are you a pregnant woman or a woman who has given birth within the past three months?",
+    "header": "Are you a pregnant woman or a woman who has given birth within the past three months?",
+    "template": "R04",
+    "image": "assets/registration/images/pregnant woman-01.png",
+    "content": "",
+    "buttons": [{
+      "text": "Yes",
+      "linkto": "R04-006"
+    }, {
+      "text": "No",
+      "linkto": "R04-006"
+    }]
+  },
+
+  {
+    "id": "R04-006",
+    "title": "Are you a single person of 18 years or above with one or more dependent(s), including at least 1 biological or non-biological child under 18?",
+    "header": "Are you a single person of 18 years or above with one or more dependent(s), including at least 1 biological or non-biological child under 18?",
+    "template": "R04",
+    "image": "assets/registration/images/person holding child-01.png",
+    "content": "",
+    "buttons": [{
+      "text": "Yes",
+      "linkto": "R04-007"
+    }, {
+      "text": "No",
+      "linkto": "R04-007"
+    }]
+  },
+
+  {
+    "id": "R04-007",
+    "title": "Are you a single person of 18 years or above with one or more dependent(s), including an older person?",
+    "header": "Are you a single person of 18 years or above with one or more dependent(s), including an older person?",
+    "template": "R04",
+    "image": "assets/registration/images/person holding elderly-01.png",
+    "content": "",
+    "buttons": [{
+      "text": "Yes",
+      "linkto": "R04-008"
+    }, {
+      "text": "No",
+      "linkto": "R04-008"
+    }]
+  },
+
+  {
+    "id": "R04-008",
+    "title": "Are you suffering from a physical, mental, intellectual, or sensory disability from birth?",
+    "header": "Are you suffering from a physical, mental, intellectual, or sensory disability from birth?",
+    "template": "R04",
+    "image": "assets/registration/images/disabled person-01.png",
+    "content": "",
+    "buttons": [{
+      "text": "Yes",
+      "linkto": "R04-009"
+    }, {
+      "text": "No",
+      "linkto": "R04-009"
+    }]
+  },
+
+  {
+    "id": "R04-009",
+    "title": "Are you suffering from a physical, mental, intellectual, or sensory disability resulting from illness, infection, injury, or trauma, especially if you are a shipwreck survivor or relatives of a shipwreck victim?",
+    "header": "Are you suffering from a physical, mental, intellectual, or sensory disability resulting from illness, infection, injury, or trauma, especially if you are a shipwreck survivor or relatives of a shipwreck victim?",
+    "template": "R04",
+    "image": "assets/registration/images/family on boat-01.png",
+    "content": "",
+    "buttons": [{
+      "text": "Yes",
+      "linkto": "R04-010"
+    }, {
+      "text": "No",
+      "linkto": "R04-010"
+    }]
+  },
+
+  {
+    "id": "R04-010",
+    "title": "Are you suffering from a serious medical condition that requires assistance, in terms of treatment or provision of nutritional and non-food items, including diabetes, respiratory illness, cancer, tuberculosis, HIV/AIDS, heart disease, or acute malnutrition?",
+    "header": "Are you suffering from a serious medical condition that requires assistance, in terms of treatment or provision of nutritional and non-food items, including diabetes, respiratory illness, cancer, tuberculosis, HIV/AIDS, heart disease, or acute malnutrition?",
+    "template": "R04",
+    "image": "assets/registration/images/man with dextrose-01.png",
+    "content": "",
+    "buttons": [{
+      "text": "Yes",
+      "linkto": "R04-011"
+    }, {
+      "text": "No",
+      "linkto": "R04-011"
+    }]
+  },
+
+  {
+    "id": "R04-011",
+    "title": "Are you a victim of torture, rape or other forms of psychological, physical, or sexual violence or exploitation?",
+    "header": "Are you a victim of torture, rape or other forms of psychological, physical, or sexual violence or exploitation?",
+    "template": "R04",
+    "image": "assets/registration/images/person with trauma-01.png",
+    "content": "",
+    "buttons": [{
+      "text": "Yes",
+      "linkto": "R04-012"
+    }, {
+      "text": "No",
+      "linkto": "R04-012"
+    }]
+  },
+
+  {
+    "id": "R04-012",
+    "title": "Are you a victim of human trafficking or slavery?",
+    "header": "Are you a victim of human trafficking or slavery?",
+    "template": "R04",
+    "image": "assets/registration/images/person hands tied-01.png",
+    "content": "",
+    "buttons": [{
+      "text": "Yes",
+      "linkto": "R05-013"
+    }, {
+      "text": "No",
+      "linkto": "R05-013"
+    }]
+  },
+
+  {
+    "id": "R05-013",
+    "title": "What is your nationality?",
+    "header": "What is your nationality?",
+    "template": "R05",
+    "image": "assets/registration/images/refugee flag2-01.png",
+    "content": "",
+    "buttons": [{
+      "text": "Confirm",
+      "linkto": "R05-014"
+    }, {
+      "text": "Go back",
+      "linkto": "R04-012"
+    }]
+  },
+
+  {
+    "id": "R05-014",
+    "title": "Do you have your wife/husband, child, mother/father, in any of these countries (Dublin III country) and you wish to be reunited with him/her?",
+    "header": "Do you have your wife/husband, child, mother/father, in any of these countries (Dublin III country) and you wish to be reunited with him/her?",
+    "template": "R05",
+    "image": "assets/registration/images/refugee flag2-01.png",
+    "content": "",
+    "buttons": [{
+      "text": "Confirm",
+      "linkto": "R06-015"
+    }, {
+      "text": "Go back",
+      "linkto": "R05-013"
+    }]
+  },
+
+  {
+    "id": "R06-015",
+    "title": "Choose avatar",
+    "header": "Please choose your avatar that will guide you through the asylum process.",
+    "template": "R06",
+    "image": [
+      {
+        "image": "assets/registration/images/ch 1 colored-14.png"
+      },
+      {
+        "image": "assets/registration/images/ch 1 colored-15.png"
+      },
+      {
+        "image": "assets/registration/images/ch 1 colored-16.png"
+      },
+      {
+        "image": "assets/registration/images/ch 1 colored-17.png"
+      }
+    ],
+
+    "content": "",
+    "buttons": [{
+      "text": "Confirm",
+      "linkto": "R07-016"
+    }, {
+      "text": "Go back",
+      "linkto": "R05-014"
+    }]
+  },
+
+  {
+    "id": "R07-016",
+    "title": "Confirmation",
+    "header": "Thank you for your responses!",
+    "template": "R07",
+    "image": "assets/registration/images/refugee flag2-01.png",
+    "content": "Please choose your preferred username below.",
+    "buttons": [{
+      "text": "Proceed to Chapter 1",
+      "linkto": "CH01_01-001"
+    }, {
+      "text": "Go back to Home Screen",
+      "linkto": "R04-006"
+    }]
+  },
+
+  {
+    "id": "CH01_01-001",
+    "title": "Arrival in Greece",
+    "header": "Arrival in Greece",
+    "template": "CH0X_01",
+    "image": "assets/chapter1/images/family on boat-01.png",
+    "content" : "Arrival and First Screening",
+    "buttons": [{
+      "text": "Proceed",
+      "linkto": "CH01_02-002"
+    }, {
+      "text": "Go back to Home Screen",
+      "linkto": ""
+    }]
+  },
+
+  {
+    "id": "CH01_02-002",
+    "title": "Hellenic Police Arrest to Bus",
+    "header": "Hellenic Police Arrest to Bus",
+    "template": "CH0X_02",
+    "image": "assets/chapter1/images/police-01.png",
+    "content": "The Hellenic Police, the Hellenic Coast Guard, or FRONTEX (European Border Police) will arrest you, put you on buses, and bring you to a First Reception and Identification Center (Moria), which is a camp, registration and identification center. Also, a part of the camp is a detention center.",
+    "buttons": [{
+      "text": "Left",
+      "linkto": "CH01_01-001"
+    }, {
+      "text": "Right",
+      "linkto": "CH01_02-003"
+    }]
+  },
+
+  {
+    "id": "CH01_02-003",
+    "title": "First Screening at MORIA Tent",
+    "header": "First Screening at MORIA Tent",
+    "template": "CH0X_02",
+    "image": "assets/chapter1/images/tent-01.png",
+    "content": "In the First Reception and Identification Center (Moria), there is a space for new arrivals. You will wait in a big tent set up inside the Center for the Hellenic Police or FRONTEX to do a first screening.",
+    "buttons": [{
+      "text": "Left",
+      "linkto": "CH01_02-002"
+    }, {
+      "text": "Right",
+      "linkto": "CH01_02-004"
+    }]
+  },
+
+  {
+    "id": "CH01_02-004",
+    "title": "First Screening - FRONTEX screening",
+    "header": "First Screening - FRONTEX screening",
+    "template": "CH0X_02",
+    "image": "assets/chapter1/images/uniformed personnel talking to woman-01.png",
+    "content": "The Hellenic Police or FRONTEX will conduct the first screening.  They will ask for your name, nationality, and other personal details.  If you are stateless, please make sure to tell this to the officer conducting your first screening.",
+    "buttons": [{
+      "text": "Left",
+      "linkto": "CH01_02-003"
+    }, {
+      "text": "Right",
+      "linkto": "CH01_02-005"
+    }]
+  },
+
+  {
+    "id": "CH01_02-005",
+    "title": "Reminders for First Screening 1/3",
+    "header": "Reminders for First Screening 1/3",
+    "template": "CH0X_02",
+    "image": "assets/chapter1/images/medical record-01.png",
+    "content": "Please provide any evidence that you have to prove your name, nationality, and other personal details to the Hellenic Police or FRONTEX official during your first screening.  Evidences will help to prove your statements are true and will help you with the asylum process.\n\nPlease mention to the officer of the Hellenic Police or FRONTEX if you are a victim of human trafficking, so they can provide you appropriate protection.",
+    "buttons": [{
+      "text": "Left",
+      "linkto": "CH01_02-004"
+    }, {
+      "text": "Right",
+      "linkto": "CH01_02-006"
+    }]
+  },
+
+  {
+    "id": "CH01_02-006",
+    "title": "Reminders for First Screening 2/3",
+    "header": "Reminders for First Screening 2/3",
+    "template": "CH0X_02",
+    "image": "assets/chapter1/images/medical record-01.png",
+    "content": "Please make sure everything you say and all the documents you provide is true and complete.  False or incomplete information will delay your asylum application and have negative consequences.  Fake information or false evidence will be very difficult to change later and might even cause the rejection of the asylum claim.",
+    "buttons": [{
+      "text": "Left",
+      "linkto": "CH01_02-005"
+    }, {
+      "text": "Right",
+      "linkto": "CH01_02-007"
+    }]
+  },
+
+  {
+    "id": "CH01_02-007",
+    "title": "Reminders for First Screening 3/3",
+    "header": "Reminders for First Screening 3/3",
+    "template": "CH0X_02",
+    "image": "assets/chapter1/images/fingerprint and EU flag-01.png",
+    "content": "During the first screening, the Hellenic Police or FRONTEX will also take your fingerprints.  Your fingerprints will be entered into the European Dactyloscopy (Eurodac), the European Union’s fingerprint database for identifying asylum seekers.  They will also look for any criminal record by searching for your name in Interpol and other police databases.\n\nIn order to avoid any mistakes in your police file, at the end of the first screening, please read through and verify all information that you provided to the official of the Hellenic Police or FRONTEX.  Mistakes in your asylum application may delay or create complications for your case.",
+    "buttons": [{
+      "text": "Left",
+      "linkto": "CH01_02-006"
+    }, {
+      "text": "Right",
+      "linkto": "CH01_02-008"
+    }]
+  },
+
+  {
+    "id": "CH01_02-008",
+    "title": "First Screening and Interview - Under 14",
+    "header": "First Screening and Interview - Under 14",
+    "template": "CH0X_02",
+    "image": "assets/chapter1/images/teenager-01.png",
+    "content": "If you are 14 years old or younger, you will not be separated from your family during the first screening and be interviewed together with one of your parents.\n\nChildren under 14 will not be interviewed and their data will be given to the official of EASO or the Regional Asylum Office by the parents during their interview.",
+    "buttons": [{
+      "text": "Left",
+      "linkto": "CH01_02-007"
+    }, {
+      "text": "Right",
+      "linkto": "CH01_02-009"
+    }]
+  },
+
+  {
+    "id": "CH01_02-009",
+    "title": "First Screening and Interview",
+    "header": "First Screening and Interview",
+    "template": "CH0X_02",
+    "image": "assets/chapter1/images/uniformed personnel talking to woman-01.png",
+    "content": "The first screening will be conducted individually, which means the Hellenic Police or FRONTEX will question you without the presence of your family.\n\nAn interpreter will be available during the initial screening to help you with your responses.",
+    "buttons": [{
+      "text": "Left",
+      "linkto": "CH01_02-008"
+    }, {
+      "text": "Right",
+      "linkto": "CH01_02-010"
+    }]
+  },
+
+  {
+    "id": "CH01_02-010",
+    "title": "First Screening - Police Report",
+    "header": "First Screening - Police Report",
+    "template": "CH0X_02",
+    "image": "assets/chapter1/images/ausweis-01.png",
+    "content": "Once the first screening is completed by the Hellenic Police or FRONTEX, they will give you a police report that includes your photo, personal details, as well as your police file number.  The police file number will later appear on your asylum application and international protection applicant’s card (commonly known as “ausweis”)",
+    "buttons": [{
+      "text": "Left",
+      "linkto": "CH01_02-009"
+    }, {
+      "text": "Right",
+      "linkto": "CH01_02-011"
+    }]
+  },
+
+  {
+    "id": "CH01_02-011",
+    "title": "Vulnerability - First Screening",
+    "header": "Vulnerability - First Screening",
+    "template": "CH0X_02",
+    "image": "assets/chapter1/images/doctor-01.png",
+    "content": "After the first screening by the Hellenic Police or FRONTEX, you will have a basic medical checkup.\n\nYou will get a form in your mother tongue (or a language you understand) to check on any medical conditions you may have. At the end of the form there will be a box that you can check if you are vulnerable.",
+    "buttons": [{
+      "text": "Left",
+      "linkto": "CH01_02-010"
+    }, {
+      "text": "Right",
+      "linkto": "CH01_02-012"
+    }]
+  },
+
+  {
+    "id": "CH01_02-012",
+    "title": "Vulnerability Confirmation - First Screening",
+    "header": "Vulnerability Confirmation - First Screening",
+    "template": "CH0X_02",
+    "image": "assets/chapter1/images/vulnerable person-01.png",
+    "content": "Based on your registration on this app, you are considered a vulnerable/non-vulnerable person.",
+    "buttons": [{
+      "text": "Left",
+      "linkto": "CH01_02-011"
+    }, {
+      "text": "Right",
+      "linkto": "CH01_02-013"
+    }]
+  },
+
+  {
+    "id": "CH01_02-013",
+    "title": "Initial Medical Screening - 1/3",
+    "header": "Initial Medical Screening - 1/3",
+    "template": "CH0X_02",
+    "image": "assets/chapter1/images/doctor-01.png",
+    "content": "When you have completed the medical form, a nurse or doctor will look at your responses, ask you some basic medical questions, and look for any serious illness.  No medical tests will be done at this point.",
+    "buttons": [{
+      "text": "Left",
+      "linkto": "CH01_02-012"
+    }, {
+      "text": "Right",
+      "linkto": "CH01_02-014"
+    }]
+  },
+
+  {
+    "id": "CH01_02-014",
+    "title": "Initial Medical Screening - 2/3",
+    "header": "Initial Medical Screening - 2/3",
+    "template": "CH0X_02",
+    "image": "assets/chapter1/images/lawyer-01.png",
+    "content": "In case no medical form will be given to you at this point, you may request to receive such form in writing.  A lawyer may assist you to obtain a medical form that evaluates your health conditions and includes any potential illnesses you suffer from.  Such form can be helpful to determine whether you are considered vulnerable or not.",
+    "buttons": [{
+      "text": "Left",
+      "linkto": "CH01_02-013"
+    }, {
+      "text": "Right",
+      "linkto": "CH01_02-015"
+    }]
+  },
+
+  {
+    "id": "CH01_02-015",
+    "title": "Initial Medical Screening - 3/3",
+    "header": "Initial Medical Screening - 3/3",
+    "template": "CH0X_02",
+    "image": "assets/chapter1/images/doctor-01.png",
+    "content": "If the nurse or doctor does not identify any manifestation that you have any of the conditions that would characterize you to be a vulnerable person, you can request any medical organization to undergo a vulnerability assessment once the first screening is completed.  Such assessment can be conducted every month.",
+    "buttons": [{
+      "text": "Left",
+      "linkto": "CH01_02-014"
+    }, {
+      "text": "Right",
+      "linkto": "CH01_02-016"
+    }]
+  },
+
+  {
+    "id": "CH01_02-016",
+    "title": "FRONTEX Screening Results",
+    "header": "FRONTEX Screening Results",
+    "template": "CH0X_02",
+    "image": "assets/chapter1/images/person in prison-01.png",
+    "content": "After your medical examination, the Hellenic Police or FRONTEX will determine if you are detained in the Detention Center of First Reception and Identification Center (Moria) (actual prison) or detained in (confined to) the territory of the larger First Reception and Identification Center (Moria) depending on the results of the first screening by the Hellenic Police or FRONTEX.  You will be detained because you did not pass through passport and visa control when you entered Greece and this is considered illegal.",
+    "buttons": [{
+      "text": "Left",
+      "linkto": "CH01_02-015"
+    }, {
+      "text": "Right",
+      "linkto": "CH01_02-017"
+    }]
+  },
+
+  {
+    "id": "CH01_02-017",
+    "title": "FRONTEX Screening Results - Unaccompanied Minor",
+    "header": "FRONTEX Screening Results - Unaccompanied Minor",
+    "template": "CH0X_02",
+    "image": "assets/chapter1/images/minor and asylum tent-01.png",
+    "content": "If you are an unaccompanied minor, the authorities will care for your protection and you will be housed in a center for minors within the First Reception and Identification Center (Moria).",
+    "buttons": [{
+      "text": "Left",
+      "linkto": "CH01_02-016"
+    }, {
+      "text": "Right",
+      "linkto": "CH01_02-018"
+    }]
+  },
+
+  {
+    "id": "CH01_02-018",
+    "title": "Learn more about detention options 1/2",
+    "header": "Learn more about detention options 1/2",
+    "template": "CH0X_02",
+    "image": "assets/chapter1/images/prison and tent-01.png",
+    "content": "This app will offer you information to learn more about the options of being detained in the Detention Center of First Reception and Identification Center (Moria) (actual prison) or detained in(confined to) the territory of the larger First Reception and Identification Center (Moria) for illustrative purposes.  \n\nIn reality, this decision is made by the Hellenic Police or FRONTEX and you have no control over it.",
+    "buttons": [{
+      "text": "Left",
+      "linkto": "CH01_02-017"
+    }, {
+      "text": "Right",
+      "linkto": "CH01_05-019"
+    }]
+  },
+
+  {
+    "id": "CH01_05-019",
+    "title": "Learn more about detention options 2/2",
+    "header": "Learn more about detention options 2/2",
+    "template": "CH0X_05",
+    "image": "assets/chapter1/images/prison and tent-01.png",
+    "content": "Which option would you like to learn?",
+    "buttons": [{
+      "text": "Detention Center of First Reception and Identification Center (Moria) (Actual Prison)",
+      "linkto": "CH02_02-001"
+    }, {
+      "text": "Detention in (confinement to) the territory of the larger First Reception and Identification Center (Moria)",
+      "linkto": "CH02_02-022"
+    }]
+  },
+
+  {
+    "id": "CH02_02-001",
+    "title": "Actual Prison @ MORIA - Detention Center of First Reception and Identification Center 1/5",
+    "header": "Actual Prison @ MORIA - Detention Center of First Reception and Identification Center",
+    "template": "CH0X_02",
+    "image": "assets/chapter2/images/prison-01.png",
+    "content" : "The Hellenic Police or FRONTEX may decide to detain you in the Detention Center of the First Reception and Identification Center (Moria) in exceptional cases (if they see no other way) for the following reasons: \n\na. to verify your true identity or country of origin;\n\n b. when they have reasons to believe that there is a high risk of escape;\n\n c. when they have reasons to believe that you are applying for international protection only to delay or frustrate the enforcement of a return decision; or \n\n d. if your presence in Greece is considered a threat to national security or public order.",
+    "buttons": [{
+      "text": "Left",
+      "linkto": "CH01_05-019"
+    }, {
+      "text": "Right",
+      "linkto": "CH02_02-002"
+    }]
+  },
+
+  {
+    "id": "CH02_02-002",
+    "title": "Actual Prison @ MORIA - Detention Center of First Reception and Identification Center 2/5",
+    "header": "Actual Prison @ MORIA - Detention Center of First Reception and Identification Center",
+    "template": "CH0X_02",
+    "image": "assets/chapter2/images/person in prison-01.png",
+    "content": "You will be escorted to the Detention Center of the First Reception and Identification Center (Moria) (actual prison) by the Hellenic Police or FRONTEX and placed in an Isobox there.\n\nYou can be detained for up to 90 days depending on the reason for your detention.  The Police Director will make that decision and s/he must justify and explain that decision in detail.\n\nIf your presence in Greece is considered a threat to national security or public order, the Police will immediately arrest you and transfer you to Athens where they will determine what will next happen to you.",
+    "buttons": [{
+      "text": "Left",
+      "linkto": "CH02_02-001"
+    }, {
+      "text": "Right",
+      "linkto": "CH02_02-003"
+    }]
+  },
+
+  {
+    "id": "CH02_02-003",
+    "title": "Actual Prison @ MORIA - Detention Center of First Reception and Identification Center 3/5",
+    "header": "Actual Prison @ MORIA - Detention Center of First Reception and Identification Center",
+    "template": "CH0X_02",
+    "image": "assets/chapter2/images/lawyer-01.png",
+    "content": "Even while you are in the Detention Center of the First Reception and Identification Center (Moria) (actual prison), you have the right to get a lawyer free of charge to help you get released from the Detention Center and/or apply for asylum status in Greece.",
+    "buttons": [{
+      "text": "Left",
+      "linkto": "CH02_02-002"
+    }, {
+      "text": "Right",
+      "linkto": "CH02_02-005"
+    }]
+  },
+
+  {
+    "id": "CH02_02-005",
+    "title": "Actual Prison @ MORIA - Detention Center of First Reception and Identification Center 4/5",
+    "header": "Actual Prison @ MORIA - Detention Center of First Reception and Identification Center",
+    "template": "CH0X_02",
+    "image": "assets/chapter2/images/lawyer-01.png",
+    "content": "The lawyer will file an objection against the decision of your detention on your behalf. S/he will do so in front of the President or the competent Judge of the Administrative Court of First Instance.\n\nIf you want to get a lawyer, please inform any of the UNHCR representatives in the Detention Center of the First Reception and Identification Center (Moria) (actual prison).",
+    "buttons": [{
+      "text": "Left",
+      "linkto": "CH02_02-003"
+    }, {
+      "text": "Right",
+      "linkto": "CH02_04-006"
+    }]
+  },
+
+  {
+    "id": "CH02_04-006",
+    "title": "Are you a non-Greek citizen or stateless person who has a well-founded fear of persecution?",
+    "header": "Are you a non-Greek citizen or stateless person who has a well-founded fear of persecution because of the following?",
+    "template": "CH0X_04",
+    "image": "assets/chapter2/images/person with trauma-01.png",
+    "content": "",
+    "buttons": [{
+      "text": "Yes",
+      "linkto": "CH02_04-007"
+    }, {
+      "text": "No",
+      "linkto": "CH02_04-007"
+    }]
+  },
+
+  {
+    "id": "CH02_04-007",
+    "title": "Do you have a well-founded fear of suffering from a serious harm in your country of origin or country of previous residence because of the following reasons?",
+    "header": "Do you have a well-founded fear of suffering from a serious harm in your country of origin or country of previous residence because of the following reasons?",
+    "template": "CH0X_04",
+    "image": "assets/chapter2/images/family on boat-01.png",
+    "content": "*You are in danger of facing the death penalty or execution, \n\n*You are in danger of facing torture,\n\n*You are in danger of facing inhuman or degrading treatment, or\n\n*Your life or physical integrity is in danger because of an international or civil war",
+    "buttons": [{
+      "text": "Yes",
+      "linkto": "CH02_04-008"
+    }, {
+      "text": "No",
+      "linkto": "CH02_04-008"
+    }]
+  },
+
+  {
+    "id": "CH02_04-008",
+    "title": "Are you a non-Greek citizen who is transferred to Greece by a European state, which implements “Dublin III” Regulation and has regarded you a person seeking asylum?",
+    "header": "Are you a non-Greek citizen who is transferred to Greece by a European state, which implements “Dublin III” Regulation and has regarded you a person seeking asylum?",
+    "template": "CH0X_04",
+    "image": "assets/chapter2/images/person with trauma-01.png",
+    "content": "",
+    "buttons": [{
+      "text": "Yes",
+      "linkto": "CH02_02-009"
+    }, {
+      "text": "No",
+      "linkto": "CH02_02-009"
+    }]
+  },
+
+  {
+    "id": "CH02_02-009",
+    "title": "You are eligible to seek asylum status or subsidiary protection status in Greece if you wish to do so.",
+    "header": "Since you answered yes to at least one of the questions above, you are eligible to seek asylum status or subsidiary protection status in Greece if you wish to do so.",
+    "template": "CH0X_02",
+    "image": "assets/chapter2/images/greek resident-01.png",
+    "content": "",
+    "buttons": [{
+      "text": "Left",
+      "linkto": "CH02_02-008"
+    }, {
+      "text": "Right",
+      "linkto": "CH02_04-010"
+    }]
+  },
+
+  {
+    "id": "CH02_04-010",
+    "title": "If you answered no to all of the above questions: Are you a non-Greek citizen or stateless person who faces dangers in your home country or country of residence, such as the death penalty, torture, or serious threat to your life due to general circumstances in the country or region you are from?",
+    "header": "If you answered no to all of the above questions: Are you a non-Greek citizen or stateless person who faces dangers in your home country or country of residence, such as the death penalty, torture, or serious threat to your life due to general circumstances in the country or region you are from?",
+    "template": "CH0X_04",
+    "image": "assets/chapter2/images/person with trauma-01.png",
+    "content": "",
+    "buttons": [{
+      "text": "Yes",
+      "linkto": "CH02_02-011"
+    }, {
+      "text": "No",
+      "linkto": "deportation_02-001"
+    }]
+  },
+
+  {
+    "id": "CH02_02-011",
+    "title": "You may seek asylum or subsidiary protection status in Greece 1/5",
+    "header": "You may seek asylum or subsidiary protection status in Greece",
+    "template": "CH0X_02",
+    "image": "assets/chapter2/images/greek resident-01.png",
+    "content": "We know, you might not want to live in Greece, but in another country of the European Union and Dublin III country, like Germany or a Northern European country.\n\nThere is no longer any realistic possibility of getting to another Dublin III country like Germany or any other Northern European country with the help of smugglers and applying for asylum there without claiming asylum in Greece.  The Greek borders are closed.",
+    "buttons": [{
+      "text": "Left",
+      "linkto": "CH02_04-010"
+    }, {
+      "text": "Right",
+      "linkto": "CH02_02-012"
+    }]
+  },
+
+  {
+    "id": "CH02_02-012",
+    "title": "You may seek asylum or subsidiary protection status in Greece 2/5",
+    "header": "You may seek asylum or subsidiary protection status in Greece",
+    "template": "CH0X_02",
+    "image": "assets/chapter2/images/bandit-01.png",
+    "content": "Even in the unlikely event of succeeding in getting to another Dublin III country with the help of smugglers, you will most likely be caught and sent back to Greece to go through the asylum process there.\n\nOnce you apply for asylum in Greece, you must stay in Greece for the entire duration of the asylum process, until you get asylum or subsidiary protection status.  The entire duration of the asylum process may vary between a few months to even 4 years, depending on your case as well as the number of other asylum applications received by the Greek authorities.",
+    "buttons": [{
+      "text": "Left",
+      "linkto": "CH02_02-011"
+    }, {
+      "text": "Right",
+      "linkto": "CH02_02-013"
+    }]
+  },
+
+  {
+    "id": "CH02_02-013",
+    "title": "You may seek asylum or subsidiary protection status in Greece 3/5",
+    "header": "You may seek asylum or subsidiary protection status in Greece",
+    "template": "CH0X_02",
+    "image": "assets/chapter2/images/lawyer-01.png",
+    "content": "The length of the asylum process can be very long, or too short in certain cases, which is very frustrating.  Please try to be patient and follow guidance provided by the Greek authorities and EASO, as well as guidance provided in this app, and advice of Greek lawyers to go through the process in the safest and fastest way.",
+    "buttons": [{
+      "text": "Left",
+      "linkto": "CH02_02-012"
+    }, {
+      "text": "Right",
+      "linkto": "CH02_02-014"
+    }]
+  },
+
+  {
+    "id": "CH02_02-014",
+    "title": "You may seek asylum or subsidiary protection status in Greece 4/5",
+    "header": "You may seek asylum or subsidiary protection status in Greece",
+    "template": "CH0X_02",
+    "image": "assets/chapter2/images/bandit-01.png",
+    "content": "Please do not trust smugglers.  They might approach you to offer their services.  They often lie to you and give you false hopes to make money for themselves and maintain their illegal businesses.  Hiring smugglers to try to leave Greece will harm your legal case, waste your money, and may even endanger your and your family’s life.",
+    "buttons": [{
+      "text": "Left",
+      "linkto": "CH02_02-013"
+    }, {
+      "text": "Right",
+      "linkto": "CH02_02-015"
+    }]
+  },
+
+  {
+    "id": "CH02_02-015",
+    "title": "You may seek asylum or subsidiary protection status in Greece 5/5",
+    "header": "You may seek asylum or subsidiary protection status in Greece",
+    "template": "CH0X_02",
+    "image": "assets/chapter2/images/greek resident-01.png",
+    "content": "Once you get asylum or subsidiary protection status in Greece, you can freely and legally move to another Dublin III country if you have your passport, but you must spend at least 3 months out of every 6 months period in Greece.  This means you must, for instance, stay in Greece between January and March out of January to June period.  However, you will not be allowed to work in any other Dublin III country except for Greece even after you get your asylum or subsidiary protection status in Greece.\n\nIf you do not seek asylum in Greece, you will be arrested and forced to leave the country in days.",
+    "buttons": [{
+      "text": "Left",
+      "linkto": "CH02_02-014"
+    }, {
+      "text": "Right",
+      "linkto": "CH02_04-016"
+    }]
+  },
+
+  {
+    "id": "CH02_04-016",
+    "title": "Would you wish to seek asylum status in Greece?",
+    "header": "Would you wish to seek asylum status in Greece?",
+    "template": "CH0X_04",
+    "image": "assets/chapter2/images/greek resident-01.png",
+    "content": "",
+    "buttons": [{
+      "text": "Yes",
+      "linkto": "CH02_02-017"
+    }, {
+      "text": "No",
+      "linkto": "deportation_02-001"
+    }]
+  },
+
+  {
+    "id": "CH02_02-017",
+    "title": "Submission of application for Asylum (MORIA Prison) 1/5",
+    "header": "Submission of application for Asylum (MORIA Prison)",
+    "template": "CH0X_02",
+    "image": "assets/chapter2/images/police _ uniformed personnel-01.png",
+    "content": "Please approach a Police Officer or staff in the Detention Center of the First Reception and Identification Center (Moria) (actual prison) to express verbally or in writing that you want to seek asylum status in Greece.  The detention or first reception services official will then inform the Greek Asylum Service regarding your wish to submit an application for asylum.\n\nYou need to know that an international protection applicant cannot be detained just for the reason that s/he entered and remains in the country illegally; hence, as soon as you apply for international protection you will be released except in certain exceptional circumstances mentioned earlier.",
+    "buttons": [{
+      "text": "Left",
+      "linkto": "CH02_04-016"
+    }, {
+      "text": "Right",
+      "linkto": "CH02_02-018"
+    }]
+  },
+
+  {
+    "id": "CH02_02-018",
+    "title": "Submission of application for Asylum (MORIA Prison) 2/5",
+    "header": "Submission of application for Asylum (MORIA Prison)",
+    "template": "CH0X_02",
+    "image": "assets/chapter2/images/police _ uniformed personnel-01.png",
+    "content": "Please approach a Police Officer or staff in the Detention Center of the First Reception and Identification Center (Moria) (actual prison) to express verbally or in writing that you want to seek asylum status in Greece.  The detention or first reception services official will then inform the Greek Asylum Service regarding your wish to submit an application for asylum.\n\nYou need to know that an international protection applicant cannot be detained just for the reason that s/he entered and remains in the country illegally; hence, as soon as you apply for international protection you will be released except in certain exceptional circumstances mentioned earlier.",
+    "buttons": [{
+      "text": "Left",
+      "linkto": "CH02_02-017"
+    }, {
+      "text": "Right",
+      "linkto": "CH02_03-019"
+    }]
+  },
+
+  {
+    "id": "CH02_03-019",
+    "title": "Submission of application for asylum (MORIA Prison) 3/5",
+    "header": "Submission of application for asylum (MORIA Prison)",
+    "template": "CH0X_03",
+    "content": "If you submit an application for international protection while you are in detention due to illegal entry into the country or because your return to your country of origin is still pending, the Hellenic Police may decide that you must remain in detention in exceptional cases (if they do not see any other way), for the following reasons:\n\nfor the verification of your true identity or country of origin; or\n\nfor the determination of those elements on which the application for international protection is based which may not be obtained in the absence of detention, in particular when there is a risk of escape; or\n\nwhen there are reasons to believe that you make the application for international protection just to delay or frustrate the enforcement of the return decision; or\n\nif your presence in the country is considered a threat to national security or public order.",
+    "buttons": [{
+      "text": "Left",
+      "linkto": "CH02_02-018"
+    }, {
+      "text": "Right",
+      "linkto": "CH02_02-020"
+    }]
+  },
+
+  {
+    "id": "CH02_02-020",
+    "title": "Submission of application for asylum (MORIA Prison) 4/5",
+    "header": "Submission of application for asylum (MORIA Prison)",
+    "template": "CH0X_02",
+    "image": "assets/chapter2/images/police _ uniformed personnel-01.png",
+    "content": "Once you are released from the Detention Center of the First Reception and Identification Center (Moria) (actual prison), please approach an European Asylum Support Office (EASO) staff in the First Reception and Identification Center (Moria) within 10 days following your arrival to express verbally or in writing that you want to seek asylum status in Greece.\n\nEuropean Asylum Support Office (EASO) will subsequently schedule the full registration of your application, within which European Asylum Support Office (EASO) will fill out a registration form for international protection on your behalf.",
+    "buttons": [{
+      "text": "Left",
+      "linkto": "CH02_02-019"
+    }, {
+      "text": "Right",
+      "linkto": "CH02_02-021"
+    }]
+  },
+
+  {
+    "id": "CH02_02-021",
+    "title": "Submission of application for asylum (MORIA Prison) 5/5",
+    "header": "Submission of application for asylum (MORIA Prison)",
+    "template": "CH0X_02",
+    "image": "assets/chapter2/images/ausweis-01.png",
+    "content": "The registration form will include a number, which is considered your case number to submit an application for asylum.  From the time you receive your application number until your application is examined at the first instance and, in case, at the appellate stage, you cannot be forced to leave Greece (deportation).\n\nIf you submit an application for international protection while you are detained for having committed a crime as defined under the penal code, you will remain in detention until you have served your sentence.\n\nAccess to international protection (asylum) procedure system is free of charge.",
+    "buttons": [{
+      "text": "Left",
+      "linkto": "CH02_02-020"
+    }, {
+      "text": "Right",
+      "linkto": "CH02_02-022"
+    }]
+  },
+
+  {
+    "id": "CH02_02-022",
+    "title": "Detention @ MORIA Territory - Territory of the Larger First Reception and Identification Center (Moria) 1/5",
+    "header": "Detention @ MORIA Territory - Territory of the Larger First Reception and Identification Center (Moria) 1/5",
+    "template": "CH0X_02",
+    "image": "assets/chapter2/images/lawyer-01.png",
+    "content": "You have the right to get a lawyer for money or for free to assist you during the asylum process.\n\nIf you have identified yourself to fall under at least one of the vulnerable categories but the nurse or doctor who conducted your initial medical screening did not categorize you under a vulnerable category, you may request to undergo a vulnerability assessment.\n\nIf you want to undergo a vulnerability assessment, please approach an officer at the Detention Center of the First Reception and Identification Center (Moria) (actual prison) to let them know that you want to get the assessment.",
+    "buttons": [{
+      "text": "Left",
+      "linkto": "CH02_02-021"
+    }, {
+      "text": "Right",
+      "linkto": "CH02_02-023"
+    }]
+  },
+
+  {
+    "id": "CH02_02-023",
+    "title": "Detention @ MORIA Territory - Territory of the Larger First Reception and Identification Center (Moria) 1/5",
+    "header": "Detention @ MORIA Territory - Territory of the Larger First Reception and Identification Center (Moria) 1/5",
+    "template": "CH0X_02",
+    "image": "assets/chapter2/images/doctor-01.png",
+    "content": "You may be scheduled either a physical or psychological assessment free of charge and will be transported to the medical facility where the assessment will take place.\n\nDuring the physical or psychological assessment, the doctor conducting the assessment will determine whether you fall under at least one of the vulnerable categories.\n\nAn employee of UNHCR, or an NGO (EuroRelief in Moria) will place you in a tent or Isobox at the First Reception and Identification Center (Moria) depending on availability.",
+    "buttons": [{
+      "text": "Left",
+      "linkto": "CH02_02-022"
+    }, {
+      "text": "Right",
+      "linkto": "CH02_02-024"
+    }]
+  },
+
+  {
+    "id": "CH02_02-024",
+    "title": "Detention @ MORIA Territory - Territory of the Larger First Reception and Identification Center (Moria) 2/5",
+    "header": "Detention @ MORIA Territory - Territory of the Larger First Reception and Identification Center (Moria) 2/5",
+    "template": "CH0X_02",
+    "image": "assets/chapter2/images/person w home -01.png",
+    "content": "You are not allowed to leave Lesvos island by law, but you may move freely within the island.\n\nYour detention (confinement to) the territory of the larger First Reception and Identification Center (Moria) may last from 45 days to 18 months.  After your confinement period, you can travel outside the larger First Reception and Identification Center (Moria) or be forced to return to Turkey (deportation). ",
+    "buttons": [{
+      "text": "Left",
+      "linkto": "CH02_02-023"
+    }, {
+      "text": "Right",
+      "linkto": "CH02_02-025"
+    }]
+  },
+
+  {
+    "id": "CH02_02-025",
+    "title": "Detention @ MORIA Territory - Territory of the Larger First Reception and Identification Center (Moria) 3/5",
+    "header": "Detention @ MORIA Territory - Territory of the Larger First Reception and Identification Center (Moria) 3/5",
+    "template": "CH0X_02",
+    "image": "assets/chapter2/images/bandit-01.png",
+    "content": "Please note there is no longer any realistic possibility of getting to another Dublin III country before claiming asylum in Greece.  The Greek borders are closed.  There is no realistic chance to succeed in getting to Germany or Northern Europe with the help of smugglers.\nThere is a possibility to succeed in getting to Athens by smugglers, but that will not help you, but harm your legal case.  Even if you get to Athens or the Greek mainland with the help of smugglers, you might have to be sent back to Lesvos to start your asylum application if you wish to apply for asylum.",
+    "buttons": [{
+      "text": "Left",
+      "linkto": "CH02_02-024"
+    }, {
+      "text": "Right",
+      "linkto": "CH02_02-026"
+    }]
+  },
+
+  {
+    "id": "CH02_02-026",
+    "title": "Detention @ MORIA Territory - Territory of the Larger First Reception and Identification Center (Moria) 4/5",
+    "header": "Detention @ MORIA Territory - Territory of the Larger First Reception and Identification Center (Moria) 4/5",
+    "template": "CH0X_02",
+    "image": "assets/chapter2/images/bandit-01.png",
+    "content": "Please do not trust smugglers.  They may approach you to offer their services.  They routinely lie to you and provide you false hopes to make money for themselves and maintain their illegal businesses.  Hiring smugglers to leave Lesvos will harm your legal case, waste your money, and may even endanger your and your family’s life.",
+    "buttons": [{
+      "text": "Left",
+      "linkto": "CH02_02-025"
+    }, {
+      "text": "Right",
+      "linkto": "CH02_02-027"
+    }]
+  },
+
+  {
+    "id": "CH02_02-027",
+    "title": "Detention @ MORIA Territory - Territory of the Larger First Reception and Identification Center (Moria) 5/5",
+    "header": "Detention @ MORIA Territory - Territory of the Larger First Reception and Identification Center (Moria) 5/5",
+    "template": "CH0X_02",
+    "image": "assets/chapter2/images/subsidiary greek resident-01.png",
+    "content": "While you are confined to the territory of the First Reception and Identification Center (Moria), you have the right to seek asylum or subsidiary protection status in Greece if you are eligible.",
+    "buttons": [{
+      "text": "Left",
+      "linkto": "CH02_02-026"
+    }, {
+      "text": "Right",
+      "linkto": "CH02_04-028"
+    }]
+  },
+
+  {
+    "id": "CH02_04-028",
+    "title": "Are you a non-Greek citizen or stateless person who has a well-founded fear of persecution?",
+    "header": "Are you a non-Greek citizen or stateless person who has a well-founded fear of persecution because of the following?",
+    "template": "CH0X_04",
+    "image": "assets/chapter2/images/person with trauma-01.png",
+    "content": "*race, \n\t\t*gender,\n\t\t*sexual orientation,\n\t\t*religion, \n\t\t*nationality or ethnic group, \n\t\t*participation in a particular social group or \n\t\t*political beliefs",
+    "buttons": [{
+      "text": "Yes",
+      "linkto": "CH02_04-029"
+    }, {
+      "text": "No",
+      "linkto": "CH02_04-029"
+    }]
+  },
+
+  {
+    "id": "CH02_04-029",
+    "title": "Do you have a well-founded fear of suffering from a serious harm in your country of origin or country of previous residence because of the following reasons?",
+    "header": "Do you have a well-founded fear of suffering from a serious harm in your country of origin or country of previous residence because of the following reasons?",
+    "template": "CH0X_04",
+    "image": "assets/chapter2/images/person with trauma-01.png",
+    "content": "*You are in danger of facing the death penalty or execution, \n\t\t*You are in danger of facing torture,\n\t\t*You are in danger of facing inhuman or degrading treatment, or \n\t\t*Your life or physical integrity is in danger because of an international or civil war",
+    "buttons": [{
+      "text": "Yes",
+      "linkto": "CH02_04-030"
+    }, {
+      "text": "No",
+      "linkto": "CH02_04-030"
+    }]
+  },
+
+  {
+    "id": "CH02_04-030",
+    "title": "Are you a non-Greek citizen who is transferred to Greece by a European state, which implements “Dublin III” Regulation and has regarded you a person seeking asylum?",
+    "header": "Are you a non-Greek citizen who is transferred to Greece by a European state, which implements “Dublin III” Regulation and has regarded you a person seeking asylum?",
+    "template": "CH0X_04",
+    "image": "assets/chapter2/images/person with trauma-01.png",
+    "content": "",
+    "buttons": [{
+      "text": "Yes",
+      "linkto": "CH02_02-031"
+    }, {
+      "text": "No",
+      "linkto": "CH02_02-031"
+    }]
+  },
+
+  {
+    "id": "CH02_02-031",
+    "title": "You are eligible to seek asylum status or subsidiary protection status in Greece if you wish to do so.",
+    "header": "Since you answered yes to at least one of the questions above, you are eligible to seek asylum status or subsidiary protection status in Greece if you wish to do so.",
+    "template": "CH0X_02",
+    "image": "assets/chapter2/images/greek resident-01.png",
+    "content": "",
+    "buttons": [{
+      "text": "Yes",
+      "linkto": "CH02_02-032"
+    }, {
+      "text": "No",
+      "linkto": "CH02_02-032"
+    }]
+  },
+
+  {
+    "id": "CH02_02-032",
+    "title": "Do not fall under any of the above categories but may face dangers in your home country or country of residence",
+    "header": "If you personally do not fall under any of the above categories, are you facing dangers in your home country or country of residence, such as the death penalty, torture, or serious threat to your life due to general circumstances in the country or region you are from?",
+    "template": "CH0X_02",
+    "image": "assets/chapter2/images/person with trauma-01.png",
+    "content": "",
+    "buttons": [{
+      "text": "Yes",
+      "linkto": "CH02_02-011"
+    }, {
+      "text": "No",
+      "linkto": "deportation_02-001"
+    }]
+  },
+
+  {
+    "id": "CH02_04-033",
+    "title": "Would you wish to seek asylum status in Greece?",
+    "header": "Would you wish to seek asylum status in Greece?",
+    "template": "CH0X_04",
+    "image": "assets/chapter2/images/greek resident-01.png",
+    "content": "",
+    "buttons": [{
+      "text": "Yes",
+      "linkto": "CH02_02-034"
+    }, {
+      "text": "No",
+      "linkto": "deportation_02-001"
+    }]
+  },
+
+  {
+    "id": "CH02_02-034",
+    "title": "Submission of application for asylum (MORIA Territory) 1/3",
+    "header": "Submission of application for asylum (MORIA Territory)",
+    "template": "CH0X_02",
+    "image": "assets/chapter2/images/uniformed personnel talking to woman-01.png",
+    "content": "Please approach a European Asylum Support Office (EASO) staff in the First Reception and Identification Center (Moria) within 10 days following your arrival to express orally or in writing that you wish to seek asylum status in Greece.\n\nEuropean Asylum Support Office (EASO) will subsequently schedule full registration of your application, within which European Asylum Support Office (EASO) will fill out a registration form for international protection on your behalf. \n\nThe registration form will include a number, which is your case number to submit an application for asylum.  From the time you receive your application number until your application is examined at the first instance and, in case, at the appellate stage, you cannot be forced to leave Greece (deportation).",
+    "buttons": [{
+      "text": "Left",
+      "linkto": "CH02_04-033"
+    }, {
+      "text": "Right",
+      "linkto": "CH02_02-035"
+    }]
+  },
+
+  {
+    "id": "CH02_02-035",
+    "title": "Submission of application for asylum (MORIA Territory) 2/3",
+    "header": "Submission of application for asylum (MORIA Territory)",
+    "template": "CH0X_02",
+    "image": "assets/chapter2/images/lawyer-01.png",
+    "content": "Access to the international protection (asylum) procedure system is free of charge.\n\nYou have the right to hire a lawyer for money or get one for free to assist you during the asylum process.",
+    "buttons": [{
+      "text": "Left",
+      "linkto": "CH02_02-034"
+    }, {
+      "text": "Right",
+      "linkto": "CH02_03-036"
+    }]
+  },
+
+  {
+    "id": "CH02_03-036",
+    "title": "Submission of application for asylum (MORIA Territory) 3/3",
+    "header": "Submission of application for asylum (MORIA Territory)",
+    "template": "CH0X_03",
+    "image": "assets/chapter2/images/police _ uniformed personnel-01.png",
+    "content": "Please note if you identified yourself to fall under at least one of the vulnerable categories but the nurse or doctor who conducted your initial medical screening did not categorize you under a vulnerable category, you may request to undergo a vulnerability assessment.\n\nIf you want to undergo a vulnerability assessment, please approach a Greek Asylum Service or European Asylum Support Office (EASO) official to express your interest for such assessment to be conducted.\n\nYou may schedule either a physical or psychological assessment free of charge and will be transported to the medical facility where the assessment will be conducted.\n\nDuring the physical or psychological assessment, the doctor conducting the assessment will determine whether you fall under at least one of the vulnerable categories.",
+    "buttons": [{
+      "text": "Left",
+      "linkto": "CH02_02-035"
+    }, {
+      "text": "Right",
+      "linkto": "CH03_01-001"
+    }]
+  },
+  {
+    "id": "CH03_01-001",
+    "title": "Registration Interview Introduction",
+    "header": "Registration Interview Introduction",
+    "template": "CH0X_02",
+    "image": "assets/chapter3/images/paper with pen-01.png",
+    "content" : "The competent authorities to register your application are the Regional Asylum Offices and the Regional Asylum Office dispatched units.  In Lesvos, the European Asylum Support Office (EASO) that aids the Greek Asylum Service with the asylum process conducts registrations.\n\nThe registration interview is typically conducted 1-3 weeks following your fill-out of the registration form with EASO but could take even three months depending on the workload of EASO and the Greek authorities.",
+    "buttons": [{
+      "text": "Left",
+      "linkto": "CH02_03-036"
+    }, {
+      "text": "Right",
+      "linkto": "CH03_04-002"
+    }]
+  },
+
+  {
+    "id": "CH03_04-002",
+    "title": "Are you 18 years of age or older?",
+    "header": "Are you 18 years of age or older?",
+    "template": "CH0X_04",
+    "image": "assets/chapter3/images/young person and old person-01.png",
+    "content": "",
+    "buttons": [{
+      "text": "Yes",
+      "linkto": "CH03_04-003"
+    }, {
+      "text": "No",
+      "linkto": "CH03_04-003"
+    }]
+  },
+
+  {
+    "id": "CH03_04-003",
+    "title": "Are you traveling with your family?",
+    "header": "Are you traveling with your family?",
+    "template": "CH0X_04",
+    "image": "assets/chapter3/images/family-01.png",
+    "content": "",
+    "buttons": [{
+      "text": "Yes",
+      "linkto": "CH03_02-004"
+    }, {
+      "text": "No",
+      "linkto": "CH03_04-014"
+    }]
+  },
+
+  {
+    "id": "CH03_02-004",
+    "title": "You are 18 years of age and older with family or traveling alone registration process",
+    "header": "You are 18 years of age and older with family or traveling alone registration process",
+    "template": "CH0X_02",
+    "image": "assets/chapter3/images/person _ family-01.png",
+    "content": "On the day of your full registration, you and members of your family who are also in Greece with you must come in person to the Regional Asylum Office in Lesvos (Nationality Identification Center, Moria, 811 00 Lesvos; Tel: (0030) 22510 32323; E-mail: pga.lesvou@asylo.gov.gr) to submit an application.",
+    "buttons": [{
+      "text": "Left",
+      "linkto": "CH03_04-003"
+    }, {
+      "text": "Right",
+      "linkto": "CH03_02-005"
+    }]
+  },
+
+  {
+    "id": "CH03_02-005",
+    "title": "You are 18 years of age and older with family or traveling alone registration process",
+    "header": "You are 18 years of age and older with family or traveling alone registration process",
+    "template": "CH0X_02",
+    "image": "assets/chapter3/images/person _ family-01.png",
+    "content": "In the event you are detained in the Detention Center of the First Reception and Identification Center (Moria) (actual prison), you will be transferred inside the First Reception and Identification Center (Moria) to be fully registered by an Asylum Unit.\n\nAs you enter the Regional Asylum Office where your registration will be conducted, you may be body searched and your personal belongings may too be searched for security reasons.\n\nPlease note it is strictly forbidden to carry into the premises of the Asylum Service weapons, explosive or flammable materials, chemical or toxic substances, sharp or other objects that may be used to induce injuries.\n\nOnly small personal belongings like briefcases and small handbags will be allowed to be carried into the premises of the Regional Asylum Office. \n\nMobile phones are only allowed in the outdoor premises of the Regional Asylum Offices or the regional Asylum Office dispatched units.  Photographs or video recordings are prohibited within and outside the premises of the Regional Asylum Office.",
+    "buttons": [{
+      "text": "Left",
+      "linkto": "CH03_02-004"
+    }, {
+      "text": "Right",
+      "linkto": "CH03_02-006"
+    }]
+  },
+
+  {
+    "id": "CH03_02-006",
+    "title": "You are 18 years of age and older with family or traveling alone registration process",
+    "header": "You are 18 years of age and older with family or traveling alone registration process",
+    "template": "CH0X_02",
+    "image": "assets/chapter3/images/person _ family-01.png",
+    "content": "The main purpose of the registration interview is to record your personal details as well as those of all members of your family traveling with you before the admissibility and eligibility interviews.  A secondary purpose of the registration interview is to identify and start processing family reunification cases in case you wish to be reunited with your family members, who already live in one of the Dublin III countries.  Your asylum claim will not be assessed during the registration interview.  Your asylum claim will be assessed during the admissibility and eligibility interviews.",
+    "buttons": [{
+      "text": "Left",
+      "linkto": "CH03_02-005"
+    }, {
+      "text": "Right",
+      "linkto": "CH03_02-007"
+    }]
+  },
+
+  {
+    "id": "CH03_02-007",
+    "title": "You are 18 years of age and older with family or traveling alone registration process",
+    "header": "You are 18 years of age and older with family or traveling alone registration process",
+    "template": "CH0X_02",
+    "image": "assets/chapter3/images/person _ family-01.png",
+    "content": "For children between 14 and 18, a shorter interview will be conducted.\n\nChildren under 14 will not be interviewed and their data will be conveyed by the parents to the official of the European Asylum Support Office (EASO) or the Regional Asylum Office conducting the registration interview.",
+    "buttons": [{
+      "text": "Left",
+      "linkto": "CH03_02-006"
+    }, {
+      "text": "Right",
+      "linkto": "CH03_02-008"
+    }]
+  },
+
+  {
+    "id": "CH03_02-008",
+    "title": "You are 18 years of age and older with family or traveling alone registration process",
+    "header": "You are 18 years of age and older with family or traveling alone registration process",
+    "template": "CH0X_02",
+    "image": "assets/chapter3/images/person _ family-01.png",
+    "content": "During the registration interview, please declare your true name, your true nationality, your true age, and those of your family members traveling with you.  Please also make sure to use the exact spelling of your official name that is indicated in your identity card, passport, or birth certificate.  This is particularly important if your official name is transliterated to the Latin alphabet.",
+    "buttons": [{
+      "text": "Left",
+      "linkto": "CH03_02-007"
+    }, {
+      "text": "Right",
+      "linkto": "CH03_04-010"
+    }]
+  },
+
+  {
+    "id": "CH03_04-010",
+    "title": "Are you 60 years of age or older?",
+    "header": "Are you 60 years of age or older?",
+    "template": "CH0X_04",
+    "image": "assets/chapter3/images/elderly man-01.png",
+    "content": "",
+    "buttons": [{
+      "text": "Yes",
+      "linkto": "CH03_04-011"
+    }, {
+      "text": "No",
+      "linkto": "CH03_04-011"
+    }]
+  },
+
+  {
+    "id": "CH03_04-011",
+    "title": "Are you a pregnant woman?",
+    "header": "Are you a pregnant woman?",
+    "template": "CH0X_04",
+    "image": "assets/chapter3/images/pregnant woman-01.png",
+    "content": "",
+    "buttons": [{
+      "text": "Yes",
+      "linkto": "R04-005"
+    }, {
+      "text": "No",
+      "linkto": "R04-005"
+    }]
+  },
+
+  {
+    "id": "CH03_02-012",
+    "title": "Vulnerable Person Registration Interview Introduction",
+    "header": "Since you answered yes to at least one of the aforementioned questions, you must insist on being registered as a vulnerable person.",
+    "template": "CH0X_02",
+    "image": "assets/chapter3/images/passport and documents-01.png",
+    "content": "The official of EASO or the Regional Asylum Office conducting the registration interview will ask for travel documents (passport) or any other document in your possession that is relevant to the examination of your application, the verification of you and your family members’ identity, country and place of origin, as well as family status.  Please bring any relevant documents with you for the registration interview.\n\nPlease note that the official of EASO or the Regional Asylum Office conducting the registration interview will ask for your passport, national ID, and other relevant documents for the examination of your asylum claim.  These documents will be handed back to you upon completion of your asylum application except for your passport, which will be confiscated and be handed back to you only upon completion of your asylum process.",
+    "buttons": [{
+      "text": "Left",
+      "linkto": "CH02_02-013"
+    }, {
+      "text": "Right",
+      "linkto": "CH02_02-013"
+    }]
+  },
+
+  {
+    "id": "CH03_02-013",
+    "title": "Vulnerable Person Registration Interview Introduction",
+    "header": "Since you answered yes to at least one of the aforementioned questions, you must insist on being registered as a vulnerable person.",
+    "template": "CH0X_02",
+    "image": "assets/chapter3/images/medical record-01.png",
+    "content": "An official of EASO or the Regional Asylum Office conducting the registration interview will ask some basic questions around your asylum claim.  These questions could include why you do not want to go back to your country or the country where you lived before coming to Lesvos. \n\nPlease make sure everything you say and all the documents you provided are true and complete.  False or incomplete information will delay your asylum application and may have negative consequences.  Fake information or false evidence will be very difficult to change later and might even cause rejection of the asylum claim.",
+    "buttons": [{
+      "text": "Left",
+      "linkto": "CH03_02-012"
+    }, {
+      "text": "Right",
+      "linkto": "CH03_03-020"
+    }]
+  },
+
+  {
+    "id": "CH03_04-014",
+    "title": "Dublin III Countries Questions for Asylum",
+    "header": "Dublin III Countries Questions for Asylum",
+    "template": "CH0X_04",
+    "image": "",
+    "content": "Do you have a valid or expired residence permit in any of these countries and did your expired residence permit expire not more than  two years ago?",
+    "buttons": [{
+      "text": "Yes",
+      "linkto": "CH03_04-015"
+    }, {
+      "text": "No",
+      "linkto": "CH03_04-015"
+    }]
+  },
+
+  {
+    "id": "CH03_04-015",
+    "title": "Dublin III Countries Questions for Asylum",
+    "header": "Dublin III Countries Questions for Asylum",
+    "template": "CH0X_04",
+    "image": "",
+    "content": "Do you have a valid or expired visa issued by any of these countries and did your expired visa expire not more than six months ago?",
+    "buttons": [{
+      "text": "Yes",
+      "linkto": "CH03_04-016"
+    }, {
+      "text": "No",
+      "linkto": "CH03_04-016"
+    }]
+  },
+
+  {
+    "id": "CH03_04-016",
+    "title": "Dublin III Countries Questions for Asylum",
+    "header": "Dublin III Countries Questions for Asylum",
+    "template": "CH0X_04",
+    "image": "",
+    "content": "Did you enter any of these countries illegally within the past 12 months?",
+    "buttons": [{
+      "text": "Yes",
+      "linkto": "CH03_04-017"
+    }, {
+      "text": "No",
+      "linkto": "CH03_04-017"
+    }]
+  },
+
+  {
+    "id": "CH03_04-017",
+    "title": "Dublin III Countries Questions for Asylum",
+    "header": "Dublin III Countries Questions for Asylum",
+    "template": "CH0X_04",
+    "image": "",
+    "content": "Did you stay illegally in any of these countries for five consecutive months before submitting your asylum application in Greece?",
+    "buttons": [{
+      "text": "Yes",
+      "linkto": "CH03_04-018"
+    }, {
+      "text": "No",
+      "linkto": "CH03_04-018"
+    }]
+  },
+
+  {
+    "id": "CH03_04-018",
+    "title": "Dublin III Countries Questions for Asylum",
+    "header": "Dublin III Countries Questions for Asylum",
+    "template": "CH0X_04",
+    "image": "",
+    "content": "Did you enter any of these countries legally before coming to Greece?",
+    "buttons": [{
+      "text": "Yes",
+      "linkto": "CH03_04-019"
+    }, {
+      "text": "No",
+      "linkto": "CH03_04-019"
+    }]
+  },
+
+  {
+    "id": "CH03_04-019",
+    "title": "Dublin III Countries Questions for Asylum",
+    "header": "Dublin III Countries Questions for Asylum",
+    "template": "CH0X_04",
+    "image": "",
+    "content": "Did you submit an asylum application in any of these countries before coming to Greece?",
+    "buttons": [{
+      "text": "Yes",
+      "linkto": ""
+    }, {
+      "text": "No",
+      "linkto": ""
+    }]
+  },
+
+  {
+    "id": "CH03_03-020",
+    "title": "Greece Asylum is Rejected",
+    "header": "Since you answered yes to at least one of the aforementioned questions, Greece is not responsible for the examination of your asylum application.",
+    "template": "CH0X_03",
+    "image": "",
+    "content": "The Dublin III country that is responsible for examining your asylum claim is not Greece.",
+    "buttons": [{
+      "text": "Left",
+      "linkto": ""
+    }, {
+      "text": "Right",
+      "linkto": ""
+    }]
+  },
+
+  {
+    "id": "CH03_02-021",
+    "title": "Greece Asylum is Rejected",
+    "header": "Since you answered yes to at least one of the aforementioned questions, Greece is not responsible for the examination of your asylum application.",
+    "template": "CH0X_02",
+    "image": "assets/chapter3/images/medical record-01.png",
+    "content": "Please provide the Greek Asylum Service or EASO official conducting your registration interview any evidence you may have that proves your residency, visa status, illegal or legal entry, or previous asylum application in the Dublin III country you previously indicated.\n\nThe Greek Asylum Service will examine your claims and evidence and determine whether Greece or any other Dublin III country is responsible for examining your asylum application. \n\nIf the Greek Asylum Service determines that Greece is not responsible for the examination of your asylum application, they will communicate with the Asylum Service of this Dublin III country and will initiate your transfer to this country.",
+    "buttons": [{
+      "text": "Left",
+      "linkto": "CH03_03-020"
+    }, {
+      "text": "Right",
+      "linkto": "CH03_02-022"
+    }]
+  },
+
+  {
+    "id": "CH03_02-022",
+    "title": "Greece Asylum is Rejected",
+    "header": "Since you answered yes to at least one of the aforementioned questions, Greece is not responsible for the examination of your asylum application.",
+    "template": "CH0X_02",
+    "image": "assets/chapter3/images/document w rejected text-01.png",
+    "content": "If the Greek Asylum Service determines that Greece is responsible for the examination of your asylum application, they will proceed with your case.\n\nPlease note, transfer to the country which will be in charge of examining your asylum application will be made within a few months following the date the Dublin III country agreed to examine your case.\n\nPlease note if another Dublin III country agreed to examine your asylum application, your asylum application in Greece will automatically be rejected and you will not be able to seek asylum status in Greece.",
+    "buttons": [{
+      "text": "Left",
+      "linkto": "CH03_03-021"
+    }, {
+      "text": "Right",
+      "linkto": "CH03_04-023"
+    }]
+  },
+
+  {
+    "id": "CH03_04-023",
+    "title": "Greece Asylum is Rejected",
+    "header": "Since you answered yes to at least one of the aforementioned questions, Greece is not responsible for the examination of your asylum application.",
+    "template": "CH0X_04",
+    "image": "assets/chapter3/images/uniformed personnel talking to woman-01.png",
+    "content": "You have the right to submit an appeal against the rejection of your asylum application in Greece before the Independent Appeals Authority.\n\nThe deadline to submit an appeal in front of the Independent Appeals Authority will be stated in the negative decision of the Greek Asylum Service.\n\nIn case you decide to appeal the decision of the Asylum Service, you must submit your appeal in writing to the Regional Asylum Office in Lesvos.",
+    "buttons": [{
+      "text": "End of Asylum Process",
+      "linkto": "endAsylum_07-001"
+    }, {
+      "text": "Continue with Accept / Appeal Asylum Claim",
+      "linkto": "CH03_04-024"
+    }]
+  },
+
+  {
+    "id": "CH03_04-024",
+    "title": "Asylum Claim",
+    "header": "Dublin III Countries Questions for Asylum",
+    "template": "CH0X_04",
+    "image": "",
+    "content": "Did you submit an asylum application in any of these countries before coming to Greece?",
+    "buttons": [{
+      "text": "Accept asylum claim rejection in Greece",
+      "linkto": "CH03_02_025"
+    }, {
+      "text": "Appeal asylum claim rejection in Greece",
+      "linkto": "CH05_01-001"
+    }]
+  },
+
+  {
+    "id": "CH03_02-025",
+    "title": "Asylum claim rejection in Greece is accepted",
+    "header": "Asylum claim rejection in Greece is accepted",
+    "template": "CH0X_02",
+    "image": "assets/chapter3/images/person inside boat-01.png",
+    "content": "Within a few weeks but maximum within six months following the date the Dublin III country agreed to examine your case, you will be transferred there.",
+    "buttons": [{
+      "text": "Left",
+      "linkto": "endAsylum_07-001"
+    }, {
+      "text": "Right",
+      "linkto": "CH03_02-027"
+    }]
+  },
+
+  {
+    "id": "CH03_02-027",
+    "title": "Accept asylum claim rejection in Greece - Registration Interview",
+    "header": "Accept asylum claim rejection in Greece - Registration Interview",
+    "template": "CH0X_02",
+    "image": "assets/chapter3/images/uniformed personnel talking to woman-01.png",
+    "content": "During the registration interview, you have the right to select the sex of the official of EASO or the Regional Asylum Office who will conduct the registration interview.  Please indicate if you do not feel comfortable answering the questions of the EASO or the Regional Asylum Office employee and you wish to change the interviewer.",
+    "buttons": [{
+      "text": "Left",
+      "linkto": "CH03_02-026"
+    }, {
+      "text": "Right",
+      "linkto": "CH03_02-028"
+    }]
+  },
+
+  {
+    "id": "CH03_02-028",
+    "title": "Accept asylum claim rejection in Greece - Registration Interview",
+    "header": "Accept asylum claim rejection in Greece - Registration Interview",
+    "template": "CH0X_02",
+    "image": "assets/chapter3/images/uniformed personnel talking to woman-01.png",
+    "content": "During the registration interview, you will also be asked to indicate the preferred sex of the officer conducting the admissibility and eligibility interviews as well as the sex of the interpreter assisting with the admissibility and eligibility interviews.  Your request will be assessed by EASO or the Regional Asylum Office and will be fulfilled if possible.  If EASO or the Regional Asylum Office is not able to provide you an officer of the desired sex, they must provide you reasons for such.  In such cases, EASO or the Regional Asylum Office may proceed without assigning you an officer of the preferred sex.",
+    "buttons": [{
+      "text": "Left",
+      "linkto": "CH03_02-027"
+    }, {
+      "text": "Right",
+      "linkto": "CH03_02-029"
+    }]
+  },
+
+  {
+    "id": "CH03_02-029",
+    "title": "Accept asylum claim rejection in Greece - Registration Interview",
+    "header": "Accept asylum claim rejection in Greece - Registration Interview",
+    "template": "CH0X_02",
+    "image": "assets/chapter3/images/person w check-01.png",
+    "content": "In order to avoid any mistakes in your asylum file, at the end of the registration interview, please verify all information that you provided to the official of EASO or the Regional Asylum Office during the registration interview.  Mistakes in your asylum application may delay or create complications for your case.",
+    "buttons": [{
+      "text": "Left",
+      "linkto": "CH03_02-028"
+    }, {
+      "text": "Right",
+      "linkto": "CH03_02-030"
+    }]
+  },
+
+  {
+    "id": "CH03_02-030",
+    "title": "Accept asylum claim rejection in Greece - Registration Interview",
+    "header": "Accept asylum claim rejection in Greece - Registration Interview",
+    "template": "CH0X_02",
+    "image": "assets/chapter3/images/ausweis-01.png",
+    "content": "A few hours following your registration interview, the official of EASO or the Regional Asylum Office conducting the interview should provide you with an international protection applicant’s card (commonly known as “ausweis”).  In exceptional circumstances, when there is a large influx of people, the processing time of the ausweis may be delayed.",
+    "buttons": [{
+      "text": "Left",
+      "linkto": "CH03_02-029"
+    }, {
+      "text": "Right",
+      "linkto": "CH03_02-031"
+    }]
+  },
+
+  {
+    "id": "CH03_02-031",
+    "title": "Accept asylum claim rejection in Greece - Registration Interview and Ausweis Process",
+    "header": "Accept asylum claim rejection in Greece - Registration Interview and Ausweis Process",
+    "template": "CH0X_02",
+    "image": "assets/chapter3/images/ausweis-01.png",
+    "content": "Please note that the ausweis is the single most important document, as it has key information related to your asylum case and is your only form of identity in Greece.  You must carry the ausweis with you at all times and keep it in good condition.\n\nIf you fail to carry and present your ausweis upon request by the Greek authorities, you may be detained, and your asylum application may negatively be impacted.\n\nIn case you lose your ausweis, you must immediately inform EASO or the Regional Asylum Office in person and ask for a replacement.  Please note that the issuance of a new ausweis may take four to five months and may significantly delay your asylum application.",
+    "buttons": [{
+      "text": "Left",
+      "linkto": "CH03_02-030"
+    }, {
+      "text": "Right",
+      "linkto": "CH03_02-032"
+    }]
+  },
+
+  {
+    "id": "CH03_02-032",
+    "title": "Accept asylum claim rejection in Greece - Registration Interview and Ausweis Process",
+    "header": "Accept asylum claim rejection in Greece - Registration Interview and Ausweis Process",
+    "template": "CH0X_02",
+    "image": "assets/chapter3/images/ausweis date and place-01.png",
+    "content": "The ausweis will state the date and location of your admissibility and eligibility interview.  This date and location are very important, as your asylum claim will be assessed on the date stated in your ausweis.\n\nOn the date stated on your ausweis you must appear at the location stated on your ausweis in front of the official of the Greek Asylum Service to conduct the admissibility and eligibility interview.",
+    "buttons": [{
+      "text": "Left",
+      "linkto": "CH03_02-031"
+    }, {
+      "text": "Right",
+      "linkto": "CH03_02-033"
+    }]
+  },
+
+  {
+    "id": "CH03_02-033",
+    "title": "Accept asylum claim rejection in Greece - Registration Interview and Ausweis Process",
+    "header": "Accept asylum claim rejection in Greece - Registration Interview and Ausweis Process",
+    "template": "CH0X_02",
+    "image": "assets/chapter3/images/ausweis date and place-01.png",
+    "content": "Please note, in certain cases, the date and location of your admissibility and eligibility interview stated on your ausweis may change depending on the availability of the Greek Asylum Service.  In such case, the updated date and location of your admissibility and eligibility interview will officially be communicated to you.\n\nIf you do not appear on the date stated on your ausweis or communicated to you officially, your asylum application will be delayed by months, as your case may be archived.  This is why it is very important to appear in front of the Greek Asylum Service on the date and time and at the location communicated to you.",
+    "buttons": [{
+      "text": "Left",
+      "linkto": "CH03_02-032"
+    }, {
+      "text": "Right",
+      "linkto": "CH03_02-034"
+    }]
+  },
+
+  {
+    "id": "CH03_02-034",
+    "title": "Accept asylum claim rejection in Greece - Registration Interview and Ausweis Process",
+    "header": "Accept asylum claim rejection in Greece - Registration Interview and Ausweis Process",
+    "template": "CH0X_02",
+    "image": "assets/chapter3/images/ausweis date and place-01.png",
+    "content": "Every ausweis has an expiration date highlighted on it.  You are obliged to have a valid ausweis with you at all times.  You must go to the Asylum Service or EASO in person to renew your ausweis before the date stated on your ausweis.  If you fail to renew your ausweis, your case may be closed, and you may be forced to leave Greece (deportation).",
+    "buttons": [{
+      "text": "Left",
+      "linkto": "CH03_02-033"
+    }, {
+      "text": "Right",
+      "linkto": "CH03_02-035"
+    }]
+  },
+
+  {
+    "id": "CH03_02-035",
+    "title": "Accept asylum claim rejection in Greece - Registration Interview and Ausweis Process",
+    "header": "Accept asylum claim rejection in Greece - Registration Interview and Ausweis Process",
+    "template": "CH0X_02",
+    "image": "assets/chapter3/images/ausweis legal case number, medical police number-01.png",
+    "content": "The ausweis will also contain your legal case number and medical and police folder number.  Please note that one legal case number is issued for all members of the same family.",
+    "buttons": [{
+      "text": "Left",
+      "linkto": "CH03_02-034"
+    }, {
+      "text": "Right",
+      "linkto": "CH03_02-036"
+    }]
+  },
+
+  {
+    "id": "CH03_02-036",
+    "title": "Accept asylum claim rejection in Greece - Registration Interview and Ausweis Process",
+    "header": "Accept asylum claim rejection in Greece - Registration Interview and Ausweis Process",
+    "template": "CH0X_02",
+    "image": "assets/chapter3/images/disabled person-01.png",
+    "content": "If you answered yes to at least one of the questions under registration process and you are registered as a vulnerable person, the international code of the vulnerable group you qualify for is stated on your ausweis.",
+    "buttons": [{
+      "text": "Left",
+      "linkto": "CH03_02-035"
+    }, {
+      "text": "Right",
+      "linkto": "CH03_02-037"
+    }]
+  },
+
+  {
+    "id": "CH03_02-037",
+    "title": "Accept asylum claim rejection in Greece - Registration Interview and Ausweis Process",
+    "header": "Accept asylum claim rejection in Greece - Registration Interview and Ausweis Process",
+    "template": "CH0X_02",
+    "image": "assets/chapter3/images/ausweis-01.png",
+    "content": "Finally, the ausweis will contain your photo, full name, father and mother’s name, date and place of birth, nationality, residential address, and date of application.",
+    "buttons": [{
+      "text": "Left",
+      "linkto": "CH03_02-036"
+    }, {
+      "text": "Right",
+      "linkto": "CH03_02-038"
+    }]
+  },
+
+  {
+    "id": "CH03_02-038",
+    "title": "Accept asylum claim rejection in Greece - Registration Interview and Ausweis Process",
+    "header": "Accept asylum claim rejection in Greece - Registration Interview and Ausweis Process",
+    "template": "CH0X_02",
+    "image": "assets/chapter3/images/ausweis w red stamp-01.png",
+    "content": "EASO or the Regional Asylum Office may place a red stamp at the bottom right corner of your ausweis.  This means a geographical restriction has been imposed on you until the date of expiry of your ausweis and you are not allowed to travel outside Lesvos beforehand.  Please note, upon renewal of your ausweis, if the red stamp stays on your renewed ausweis, the travel restriction still holds.",
+    "buttons": [{
+      "text": "Left",
+      "linkto": "CH03_02-037"
+    }, {
+      "text": "Right",
+      "linkto": "CH03_02-039"
+    }]
+  },
+
+  {
+    "id": "CH03_02-039",
+    "title": "Additional Disclaimer if Vulnerable Individual - Registration Interview",
+    "header": "Additional Disclaimer if Vulnerable Individual - Registration Interview",
+    "template": "CH0X_02",
+    "image": "assets/chapter3/images/disabled person-01.png",
+    "content": "Since you are considered to be a “vulnerable person,” you may leave Lesvos freely and legally once you obtain your ausweis.  You may travel and move to any part of Greece but you are obliged to stay within Greece.\n\nPlease note for your eligibility interviews you may have to return to Lesvos.  The date and location of your eligibility interviews will be stated on your ausweis or communicated to you following the receipt of your ausweis.\n\nPlease also note, as a vulnerable person, you will automatically pass the admissibility interview.  Therefore, no such interview will be scheduled for you.",
+    "buttons": [{
+      "text": "Left",
+      "linkto": "CH03_02-038"
+    }, {
+      "text": "Right",
+      "linkto": "CH03_03-040"
+    }]
+  },
+
+  {
+    "id": "CH03_03-040",
+    "title": "Additional Disclaimer if Vulnerable Individual - Registration Interview",
+    "header": "Additional Disclaimer if Vulnerable Individual - Registration Interview",
+    "template": "CH0X_03",
+    "image": "",
+    "content": "If you decide to travel outside Lesvos despite a geographical restriction imposed on you, this may severely harm your asylum application and may result in significant delays of your case due to archiving or, in the worst-case scenario, rejection of your asylum application.  This means you may be forced to leave Greece.\n\nIf your ausweis does not contain a red stamp, you may leave Lesvos and freely travel within Greece.  Please note you are obliged to stay within Greece.  If you decide to travel outside Greece, this may severely harm your asylum application and may result in rejection of your asylum claim and deportation.\n\nFollowing the reception of your ausweis, you, as an applicant for international protection, automatically have the right to apply for employment in Greece and have the right to obtain a Tax ID and an AMKA (social security number).  As an employee, you have the same rights and obligations regarding social security as any Greek citizen.",
+    "buttons": [{
+      "text": "Left",
+      "linkto": "CH03_02-039"
+    }, {
+      "text": "Right",
+      "linkto": "CH03_02-041"
+    }]
+  },
+
+  {
+    "id": "CH03_02-041",
+    "title": "Additional Disclaimer if Vulnerable Individual - Registration Interview",
+    "header": "Additional Disclaimer if Vulnerable Individual - Registration Interview",
+    "template": "CH0X_02",
+    "image": "assets/chapter3/images/hospital and pharmacy-01.png",
+    "content": "Please note, as an applicant for international protection, you have the right to receive hospital, medical, and pharmaceutical treatment free of charge even if you are uninsured.",
+    "buttons": [{
+      "text": "Left",
+      "linkto": "CH03_03-040"
+    }, {
+      "text": "Right",
+      "linkto": "CH03_02-042"
+    }]
+  },
+
+  {
+    "id": "CH03_02-042",
+    "title": "Additional Disclaimer if Vulnerable Individual - Registration Interview",
+    "header": "Additional Disclaimer if Vulnerable Individual - Registration Interview",
+    "template": "CH0X_02",
+    "image": "assets/chapter3/images/school-01.png",
+    "content": "You, as well as your children and other family members, have access to the public educational system in Greece free of charge.  You also have access to vocational training in Greece free of charge.",
+    "buttons": [{
+      "text": "Left",
+      "linkto": "CH03_02-041"
+    }, {
+      "text": "Right",
+      "linkto": "CH03_02-043"
+    }]
+  },
+
+  {
+    "id": "CH03_02-043",
+    "title": "Additional Disclaimer if Vulnerable Individual - Registration Interview",
+    "header": "Additional Disclaimer if Vulnerable Individual - Registration Interview",
+    "template": "CH0X_02",
+    "image": "assets/chapter3/images/shelter-01.png",
+    "content": "If you are homeless, you have the right to ask the Greek Asylum Service to host you in a Reception Center or other facility, provided that there is sufficient space for you.\n\nIf you are not able to be accommodated in a Reception Center or other similar facility and are a disabled person with a disability percentage of 67 percent and above, you have the right to receive a disability allowance of 313 euros per month and may also be eligible for unemployment benefits.",
+    "buttons": [{
+      "text": "Left",
+      "linkto": "CH03_02-042"
+    }, {
+      "text": "Right",
+      "linkto": "CH03_02-044"
+    }]
+  },
+
+  {
+    "id": "CH03_02-044",
+    "title": "Additional Disclaimer if Vulnerable Individual - Registration Interview",
+    "header": "Additional Disclaimer if Vulnerable Individual - Registration Interview",
+    "template": "CH0X_02",
+    "image": "assets/chapter3/images/person holding ausweis-01.png",
+    "content": "Please note as an applicant for international protection, you are not allowed to transfer your family from your home country or country of previous residence to Greece.  You will only be allowed to do this if you receive asylum status following your eligibility interview.",
+    "buttons": [{
+      "text": "Left",
+      "linkto": "CH03_02-043"
+    }, {
+      "text": "Right",
+      "linkto": "CH03_02-045"
+    }]
+  },
+
+  {
+    "id": "CH03_02-045",
+    "title": "Additional Disclaimer if Vulnerable Individual - Registration Interview",
+    "header": "Additional Disclaimer if Vulnerable Individual - Registration Interview",
+    "template": "CH0X_02",
+    "image": "assets/chapter3/images/ausweis-01.png",
+    "content": "Please note if you are detained in the Detention Center of the First Reception and Identification Center (Moria) (actual prison), you must be provided with your ausweis on the day of your release, in case the examination of your application is still pending.  You also need to present yourself to the Regional Asylum Office in Lesvos within 10 days to state your home address and contact information and be provided with an ausweis, in case you have not received one already.",
+    "buttons": [{
+      "text": "Left",
+      "linkto": "CH03_02-044"
+    }, {
+      "text": "Right",
+      "linkto": "CH03_02-046"
+    }]
+  },
+
+  {
+    "id": "CH03_02-046",
+    "title": "Additional Disclaimer if Vulnerable Individual - Registration Interview",
+    "header": "Additional Disclaimer if Vulnerable Individual - Registration Interview",
+    "template": "CH0X_02",
+    "image": "assets/chapter3/images/uniformed personnel:police-01.png",
+    "content": "At the end of your registration interview, the official of EASO or the Regional Asylum Office conducting the interview will inform you, in a language that you understand with the help of the interpreter, about the asylum procedure, your rights and obligations while being an international protection applicant.  S/he will also provide you deadlines that apply throughout the procedure.",
+    "buttons": [{
+      "text": "Left",
+      "linkto": "CH03_02-045"
+    }, {
+      "text": "Right",
+      "linkto": "CH03_02-047"
+    }]
+  },
+
+  {
+    "id": "CH03_02-047",
+    "title": "Additional Disclaimer if Vulnerable Individual - Registration Interview",
+    "header": "Additional Disclaimer if Vulnerable Individual - Registration Interview",
+    "template": "CH0X_02",
+    "image": "assets/chapter3/images/uniformed personnel:police-01.png",
+    "content": "Your obligations include abiding by all deadlines determined by the Greek Asylum Service throughout the different stages of the asylum procedure.  Please note if you fail to abide by any deadline, your asylum application may significantly be delayed or even, in the worst-case scenario, rejected.\n\nAs an applicant for international protection in Greece, you must remain in Greece until the examination of your application is completed.",
+    "buttons": [{
+      "text": "Left",
+      "linkto": "CH03_02-046"
+    }, {
+      "text": "Right",
+      "linkto": "CH03_02-048"
+    }]
+  },
+
+  {
+    "id": "CH03_02-048",
+    "title": "Additional Disclaimer if Vulnerable Individual - Registration Interview",
+    "header": "Additional Disclaimer if Vulnerable Individual - Registration Interview",
+    "template": "CH0X_02",
+    "image": "assets/chapter3/images/person leaving w bag-01.png",
+    "content": "If you leave Greece or your area of residence which was determined for you without informing the Greek authorities beforehand, the Asylum Service may consider that you are not interested in the continuation of your asylum application and may discontinue its examination.  If your asylum application is no longer examined, you will be forced to leave Greece.\n\nYou must cooperate with the Greek authorities regarding any issue related to your application and the verification of your personal data.",
+    "buttons": [{
+      "text": "Left",
+      "linkto": "CH03_02-047"
+    }, {
+      "text": "Right",
+      "linkto": "CH03_02-049"
+    }]
+  },
+
+  {
+    "id": "CH03_02-049",
+    "title": "Additional Disclaimer if Vulnerable Individual - Registration Interview",
+    "header": "Additional Disclaimer if Vulnerable Individual - Registration Interview",
+    "template": "CH0X_02",
+    "image": "assets/chapter3/images/uniformed personnel talking to woman-01.png",
+    "content": "You must immediately inform the Greek Asylum Service or EASO of any changes in your residence or contact information.  This is particularly important as the Asylum Service or EASO may want to get in touch with you anytime to communicate any updates on your asylum application or ask for additional information.",
+    "buttons": [{
+      "text": "Left",
+      "linkto": "CH03_02-048"
+    }, {
+      "text": "Right",
+      "linkto": "CH03_02-050"
+    }]
+  },
+
+  {
+    "id": "CH03_02-050",
+    "title": "Additional Disclaimer if Vulnerable Individual - Registration Interview",
+    "header": "Additional Disclaimer if Vulnerable Individual - Registration Interview",
+    "template": "CH0X_02",
+    "image": "assets/chapter3/images/cheque or pile of money-01.png",
+    "content": "While you wait for your admissibility and eligibility interviews, you must also comply with all regulations of the First Reception and Identification Center (Moria) or any other facility where you are housed and you must follow the Greek law.\n\nFollowing your registration, you may be put into contact with an NGO or any other organization that provides legal, medical, and/or psychological support.\n\nPlease note, you are eligible to receive a 90 euro per individual per month allowance from UNHCR if you reside in the First Reception and Identification Center (Moria), Olive Grove, or Kara Tepe following registration until you receive your second rejection on your appeal from the Independent Appeals Authority.  If you reside outside these facilities, you are eligible for an allowance of 150 euros per individual per month to compensate for food and any additional expenses you may incur by residing outside a camp.",
+    "buttons": [{
+      "text": "Left",
+      "linkto": "CH03_02-049"
+    }, {
+      "text": "Right",
+      "linkto": "CH03_02-051"
+    }]
+  },
+
+  {
+    "id": "CH03_04-051",
+    "title": "Do you have a family member from one of the Dublin III countries?",
+    "header": "Do you have a family member from one of the Dublin III countries?",
+    "template": "CH0X_04",
+    "image": "assets/chapter3/images/family-01.png",
+    "content": "",
+    "buttons": [{
+      "text": "Yes",
+      "linkto": "endAsylum_07-001"
+    }, {
+      "text": "No",
+      "linkto": "CH03_04-024"
+    }]
+  },
+
+  {
+    "id": "CH03_02-052",
+    "title": "You are not 18 years of age or older and you are not traveling with your family registration process",
+    "header": "You are not 18 years of age or older and you are not traveling with your family registration process",
+    "template": "CH0X_02",
+    "image": "assets/chapter3/images/teenager-01.png",
+    "content": "",
+    "buttons": [{
+      "text": "Left",
+      "linkto": ""
+    }, {
+      "text": "Right",
+      "linkto": "CH03_02-053"
+    }]
+  },
+
+  {
+    "id": "CH03_02-053",
+    "title": "You are not 18 years of age or older and you are not traveling with your family registration process",
+    "header": "You are not 18 years of age or older and you are not traveling with your family registration process",
+    "template": "CH0X_02",
+    "image": "assets/chapter3/images/uniformed personnel:police-01.png",
+    "content": "",
+    "buttons": [{
+      "text": "Left",
+      "linkto": "CH03_02-052"
+    }, {
+      "text": "Right",
+      "linkto": "CH03_02-054"
+    }]
+  },
+
+  {
+    "id": "CH03_02-054",
+    "title": "You are not 18 years of age or older and you are not traveling with your family registration process",
+    "header": "You are not 18 years of age or older and you are not traveling with your family registration process",
+    "template": "CH0X_02",
+    "image": "assets/chapter3/images/teenager and person-01.png",
+    "content": "On the day of your full registration, you and your guardian must come in person to the Regional Office of the Asylum Service in Moria to submit an asylum application.",
+    "buttons": [{
+      "text": "Left",
+      "linkto": "CH03_02-053"
+    }, {
+      "text": "Right",
+      "linkto": "CH03_02-055"
+    }]
+  },
+
+  {
+    "id": "CH03_02-055",
+    "title": "You are not 18 years of age or older and you are not traveling with your family registration process",
+    "header": "You are not 18 years of age or older and you are not traveling with your family registration process",
+    "template": "CH0X_02",
+    "image": "assets/chapter3/images/tent-01.png",
+    "content": "If an Asylum Unit does not operate inside or near the First Reception and Identification Center (Moria) where you are held, you will be transferred to the nearest Regional Asylum Office.\n\nPlease note as a minor, you cannot be detained in the Detention Center of the First Reception and Identification Center (Moria) (actual prison).\n\nAs you enter the Regional Asylum Office or the regional Asylum Office dispatched unit where your registration will be conducted, please note you may be body searched and your personal belongings may too be searched for security reasons.",
+    "buttons": [{
+      "text": "Left",
+      "linkto": "CH03_02-054"
+    }, {
+      "text": "Right",
+      "linkto": "CH03_02-056"
+    }]
+  },
+
+  {
+    "id": "CH03_02-056",
+    "title": "You are not 18 years of age or older and you are not traveling with your family registration process",
+    "header": "You are not 18 years of age or older and you are not traveling with your family registration process",
+    "template": "CH0X_02",
+    "image": "assets/chapter3/images/weapons-01.png",
+    "content": "Please note it is strictly forbidden to carry into the premises of the Greek Asylum Service weapons, explosive or flammable materials, chemical or toxic substances, sharp or other objects that may be used to induce injuries\n\nOnly small personal belongings like briefcases and small handbags will be allowed to be carried into the premises of the Regional Asylum Office. \n\nMobile phones are only allowed in the outdoor premises of the Regional Asylum Office.  Photographs or video recordings are prohibited within and outside the premises of the Regional Asylum Office.",
+    "buttons": [{
+      "text": "Left",
+      "linkto": "CH03_02-055"
+    }, {
+      "text": "Right",
+      "linkto": "CH03_03-057"
+    }]
+  },
+
+  {
+    "id": "CH03_03-057",
+    "title": "You are not 18 years of age or older and you are not traveling with your family registration process",
+    "header": "You are not 18 years of age or older and you are not traveling with your family registration process",
+    "template": "CH0X_03",
+    "image": "",
+    "content": "The main purpose of the registration interview is to record your personal details before the eligibility interview.  Your asylum claim will not be assessed during the registration interview.  Your asylum claim will be assessed during the eligibility interview.\n\n* If you are under 15 years of age, your application for international protection must be submitted by the appointed representative.\n\n* If you are over 15 years of age, you may submit your application yourself. \n\n* For children between 14 and 18, a shorter registration interview will be conducted.\n\n* Children under 14 will not be interviewed.",
+    "buttons": [{
+      "text": "Left",
+      "linkto": "CH03_02-056"
+    }, {
+      "text": "Right",
+      "linkto": "CH03_02-058"
+    }]
+  },
+
+  {
+    "id": "CH03_02-058",
+    "title": "You are not 18 years of age or older and you are not traveling with your family registration process",
+    "header": "You are not 18 years of age or older and you are not traveling with your family registration process",
+    "template": "CH0X_02",
+    "image": "assets/chapter3/images/passport and documents-01.png",
+    "content": "During the registration interview, please declare your true name, your true nationality, your true age, and those of members of your family traveling with you.  Please also make sure to use the exact spelling of your official name that is indicated in your identity card, passport, or birth certificate.  This is particularly important if your official name is transliterated to the Latin alphabet.\n\nYou must insist on being registered as a vulnerable person.",
+    "buttons": [{
+      "text": "Left",
+      "linkto": "CH03_03-057"
+    }, {
+      "text": "Right",
+      "linkto": "CH03_02-059"
+    }]
+  },
+
+  {
+    "id": "CH03_02-059",
+    "title": "You are not 18 years of age or older and you are not traveling with your family registration process",
+    "header": "You are not 18 years of age or older and you are not traveling with your family registration process",
+    "template": "CH0X_02",
+    "image": "assets/chapter3/images/passport and documents-01.png",
+    "content": "The official of EASO or the Regional Asylum Office conducting the registration interview will ask for travel documents (passport) or any other document in your possession that is relevant to the examination of your application, the verification of your identity, country and place of origin, as well as family status.  Please bring any relevant documents with you for the registration interview.",
+    "buttons": [{
+      "text": "Left",
+      "linkto": "CH03_02-058"
+    }, {
+      "text": "Right",
+      "linkto": "CH03_02-060"
+    }]
+  },
+
+  {
+    "id": "CH03_02-060",
+    "title": "You are not 18 years of age or older and you are not traveling with your family registration process",
+    "header": "You are not 18 years of age or older and you are not traveling with your family registration process",
+    "template": "CH0X_02",
+    "image": "assets/chapter3/images/passport and documents-01.png",
+    "content": "The official of EASO or the Regional Asylum Office conducting the registration interview will take your passport, national ID, and other relevant documents for the assessment of your asylum claim.  The documents will be given back to you when your application is completed.",
+    "buttons": [{
+      "text": "Left",
+      "linkto": "CH03_02-059"
+    }, {
+      "text": "Right",
+      "linkto": "CH03_02-061"
+    }]
+  },
+
+  {
+    "id": "CH03_02-061",
+    "title": "You are not 18 years of age or older and you are not traveling with your family registration process",
+    "header": "You are not 18 years of age or older and you are not traveling with your family registration process",
+    "template": "CH0X_02",
+    "image": "assets/chapter3/images/medical record-01.png",
+    "content": "You will also be asked some basic questions around your asylum claim including the reasons why you do not wish to return to your country or origin or country of previous residence by the official of EASO or the Regional Asylum Office conducting the registration interview.\n\nPlease make sure to provide information around your personal information as well as basic facts around your asylum claim that is absolutely true and complete.  Fake or incomplete information will not only delay your asylum application but will have negative implications on it.  Fake information or false evidence will be very difficult to change as you proceed with the asylum application and could even cause rejection of the asylum claim.",
+    "buttons": [{
+      "text": "Left",
+      "linkto": "CH03_02-060"
+    }, {
+      "text": "Right",
+      "linkto": "CH03_02-062"
+    }]
+  },
+
+  {
+    "id": "CH03_02-062",
+    "title": "Unaccompanied Minor - Registration Interview and Ausweis Process",
+    "header": "Unaccompanied Minor - Registration Interview and Ausweis Process",
+    "template": "CH0X_02",
+    "image": "assets/chapter3/images/fingerprint and EU flag-01.png",
+    "content": "Following your registration interview, you will be asked to provide your fingerprints.  Your fingerprints will be entered into the European Dactyloscopy (Eurodac), the European Union’s fingerprint database for identifying asylum seekers.  This is to ascertain you have not submitted an application for international protection in any other Dublin III country.  The information will promptly be verified whether or not you have any other application pending.",
+    "buttons": [{
+      "text": "Left",
+      "linkto": "CH03_02-061"
+    }, {
+      "text": "Right",
+      "linkto": "CH03_02-063"
+    }]
+  },
+
+  {
+    "id": "CH03_02-063",
+    "title": "Unaccompanied Minor - Registration Interview and Ausweis Process",
+    "header": "Unaccompanied Minor - Registration Interview and Ausweis Process",
+    "template": "CH0X_02",
+    "image": "assets/chapter3/images/family-01.png",
+    "content": "If a member of your family is legally present in a “Dublin III” country, following your registration of asylum application in Greece, the country where your family member resides is responsible for the examination of your application and you will be transferred there.\n\nAt the end of the registration interview, a photograph will be taken of you and all your family members above 14 separately.\n\nThe authorities may conduct medical tests to determine your age.  Both you and your representative must be informed regarding this procedure and you or your representative must consent. \n\nThe registration will be conducted with the assistance of an interpreter in a language you understand.",
+    "buttons": [{
+      "text": "Left",
+      "linkto": "CH03_02-062"
+    }, {
+      "text": "Right",
+      "linkto": "CH03_02-064"
+    }]
+  },
+
+  {
+    "id": "CH03_02-064",
+    "title": "Unaccompanied Minor - Registration Interview and Ausweis Process",
+    "header": "Unaccompanied Minor - Registration Interview and Ausweis Process",
+    "template": "CH0X_02",
+    "image": "assets/chapter3/images/uniformed personnel talking to woman-01.png",
+    "content": "During the registration interview, you have the right to select the sex of the official of EASO or the Regional Asylum Office who will conduct the registration interview.  Please indicate if you do not feel comfortable answering the questions of the EASO or the Regional Asylum Office employee and you wish to change the interviewer.",
+    "buttons": [{
+      "text": "Left",
+      "linkto": "CH03_02-063"
+    }, {
+      "text": "Right",
+      "linkto": "CH03_02-065"
+    }]
+  },
+
+  {
+    "id": "CH03_02-065",
+    "title": "Unaccompanied Minor - Registration Interview and Ausweis Process",
+    "header": "Unaccompanied Minor - Registration Interview and Ausweis Process",
+    "template": "CH0X_02",
+    "image": "assets/chapter3/images/uniformed personnel talking to woman-01.png",
+    "content": "During the registration interview, you will also be asked to indicate the preferred sex of the officer conducting the eligibility interview as well as the sex of the interpreter assisting with the eligibility interview.  Your request will be assessed by EASO or the Regional Asylum Office and will be fulfilled if possible.  If EASO or the Regional Asylum Office is not able to provide you an officer of the desired sex, they must provide you reasons for such.  In such cases, EASO or the Regional Asylum Office may proceed without assigning you an officer of the preferred sex.",
+    "buttons": [{
+      "text": "Left",
+      "linkto": "CH03_02-064"
+    }, {
+      "text": "Right",
+      "linkto": "CH03_02-066"
+    }]
+  },
+
+  {
+    "id": "CH03_02-066",
+    "title": "Unaccompanied Minor - Registration Interview and Ausweis Process",
+    "header": "Unaccompanied Minor - Registration Interview and Ausweis Process",
+    "template": "CH0X_02",
+    "image": "assets/chapter3/images/ausweis-01.png",
+    "content": "In order to avoid any mistakes in your asylum file, at the end of the registration interview, please verify all information that you provided to the official of EASO or the Regional Asylum Office during the registration interview.  Mistakes in your asylum application may delay or create complications for your case.\n\nA few hours following your registration interview, the official of EASO or the Regional Asylum Office conducting the interview will hand your representative an international protection applicant’s card (commonly known as “ausweis”.)",
+    "buttons": [{
+      "text": "Left",
+      "linkto": "CH03_02-065"
+    }, {
+      "text": "Right",
+      "linkto": "CH03_02-067"
+    }]
+  },
+
+  {
+    "id": "CH03_02-067",
+    "title": "Unaccompanied Minor - Registration Interview and Ausweis Process",
+    "header": "Unaccompanied Minor - Registration Interview and Ausweis Process",
+    "template": "CH0X_02",
+    "image": "assets/chapter3/images/ausweis-01.png",
+    "content": "Please note that the ausweis is the single most important document, as it has key information related to your asylum case and is your only form of identity in Greece.  \n\nYour ausweis will be kept with your guardian at a safe location and s/he must be able to present it to the Greek authorities upon request.\n\nIn case you lose or damage your ausweis, your guardian must immediately inform EASO or the Regional Asylum Office and ask for a replacement.  Please note issuance of a new ausweis may take four-five months that may significantly delay your asylum application.",
+    "buttons": [{
+      "text": "Left",
+      "linkto": "CH03_02-066"
+    }, {
+      "text": "Right",
+      "linkto": "CH03_02-068"
+    }]
+  },
+
+  {
+    "id": "CH03_02-068",
+    "title": "Unaccompanied Minor - Registration Interview and Ausweis Process",
+    "header": "Unaccompanied Minor - Registration Interview and Ausweis Process",
+    "template": "CH0X_02",
+    "image": "assets/chapter3/images/ausweis date and place-01.png",
+    "content": "The ausweis will state the date and location of your eligibility interview.  This date and location are very important, as your asylum claim will be assessed on the date stated in your ausweis.\n\nOn the date stated on your ausweis you and your guardian must appear at the location stated on your ausweis in front of the official of the Greek Asylum Service to conduct the eligibility interview.\n\nIt is the responsibility of your guardian to ensure you appear on the date stated on your ausweis.  If you do not appear on the specified date, your asylum application will be delayed by months, as your case may be archived.  This is why it is very important to appear in front of the Greek Asylum Service on the date and time and at the location communicated to you.",
+    "buttons": [{
+      "text": "Left",
+      "linkto": "CH03_02-067"
+    }, {
+      "text": "Right",
+      "linkto": "CH03_02-069"
+    }]
+  },
+
+  {
+    "id": "CH03_02-069",
+    "title": "Unaccompanied Minor - Registration Interview and Ausweis Process",
+    "header": "Unaccompanied Minor - Registration Interview and Ausweis Process",
+    "template": "CH0X_02",
+    "image": "assets/chapter3/images/ausweis expiry-01.png",
+    "content": "Every ausweis has an expiration date highlighted on it.  It is your guardian’s responsibility to ensure you have a valid ausweis at all times.  Your guardian must go to the Asylum Service or EASO in person to renew your ausweis before the date stated on your ausweis.  If your guardian fails to renew your ausweis, your case may be closed, and you may be forced to leave Greece (deportation); therefore, you must ensure that your guardian renews your ausweis in a timely manner.\n\nThe ausweis will also contain your legal case number and medical and police folder number.\n\nAs an unaccompanied minor, the international code of SC-UC will appear on your ausweis.\n\nFinally, the ausweis will contain your photo, full name, father and mother’s name, date and place of birth, nationality, residential address, and date of application.",
+    "buttons": [{
+      "text": "Left",
+      "linkto": "CH03_02-068"
+    }, {
+      "text": "Right",
+      "linkto": "CH03_02-070"
+    }]
+  },
+
+  {
+    "id": "CH03_02-070",
+    "title": "Unaccompanied Minor - Registration Interview and Ausweis Process",
+    "header": "Unaccompanied Minor - Registration Interview and Ausweis Process",
+    "template": "CH0X_02",
+    "image": "assets/chapter3/images/minor holding ausweis-01.png",
+    "content": "Following the reception of your ausweis, if you are a minor under 15, you do neither have the right to apply for employment in Greece nor to obtain a Tax ID and an AMKA (social security number).",
+    "buttons": [{
+      "text": "Left",
+      "linkto": "CH03_02-069"
+    }, {
+      "text": "Right",
+      "linkto": "CH03_02-071"
+    }]
+  },
+
+  {
+    "id": "CH03_02-071",
+    "title": "Unaccompanied Minor - Registration Interview and Ausweis Process",
+    "header": "Unaccompanied Minor - Registration Interview and Ausweis Process",
+    "template": "CH0X_02",
+    "image": "assets/chapter3/images/minor holding ausweis-01.png",
+    "content": "Following the reception of your ausweis, if you are minor of 15 years of age or above, you may seek the consent of your guardian to have the right to apply for employment in Greece or obtain a Tax ID and an AMKA (social security number).",
+    "buttons": [{
+      "text": "Left",
+      "linkto": "CH03_02-070"
+    }, {
+      "text": "Right",
+      "linkto": "CH03_02-072"
+    }]
+  },
+
+  {
+    "id": "CH03_02-072",
+    "title": "Unaccompanied Minor - Registration Interview and Ausweis Process",
+    "header": "Unaccompanied Minor - Registration Interview and Ausweis Process",
+    "template": "CH0X_02",
+    "image": "assets/chapter3/images/hospital and pharmacy-01.png",
+    "content": "Please note, as an applicant for international protection, you have the right to receive hospital, medical, and pharmaceutical treatment free of charge even if you are uninsured.\n\nYou have full access to the public educational system as well as vocational training in Greece free of charge.\n\nIf you are not able to be accommodated in a Reception Center or other similar facility and are a disabled person with a disability percentage of 67 percent and above, you have the right to receive a disability allowance.",
+    "buttons": [{
+      "text": "Left",
+      "linkto": "CH03_02-071"
+    }, {
+      "text": "Right",
+      "linkto": "CH03_02-073"
+    }]
+  },
+
+  {
+    "id": "CH03_02-073",
+    "title": "Unaccompanied Minor - Registration Interview and Ausweis Process",
+    "header": "Unaccompanied Minor - Registration Interview and Ausweis Process",
+    "template": "CH0X_02",
+    "image": "assets/chapter3/images/disabled person-01.png",
+    "content": "If you are not able to be accommodated in a Reception Center or other similar facility and are a disabled person with a disability percentage of 67 percent and above, you have the right to receive a disability allowance.",
+    "buttons": [{
+      "text": "Left",
+      "linkto": "CH03_02-072"
+    }, {
+      "text": "Right",
+      "linkto": "CH03_02-074"
+    }]
+  },
+
+  {
+    "id": "CH03_02-074",
+    "title": "Unaccompanied Minor - Registration Interview and Ausweis Process",
+    "header": "Unaccompanied Minor - Registration Interview and Ausweis Process",
+    "template": "CH0X_02",
+    "image": "assets/chapter3/images/family w home-01.png",
+    "content": "Please note, you will only be allowed to transfer your close family members from your home country or country of previous residence to Greece once you receive asylum status following your eligibility interview.\n\nAt the end of your registration interview, the official of EASO or the Regional Asylum Office conducting the interview will inform you and your guardian, in a language that you understand with the help of the interpreter, about the asylum procedure, your rights and obligations while being an international protection applicant.  S/he will also provide you deadlines that apply throughout the procedure.",
+    "buttons": [{
+      "text": "Left",
+      "linkto": "CH03_02-073"
+    }, {
+      "text": "Right",
+      "linkto": "CH03_02-075"
+    }]
+  },
+
+  {
+    "id": "CH03_02-075",
+    "title": "Unaccompanied Minor - Registration Interview and Ausweis Process",
+    "header": "Unaccompanied Minor - Registration Interview and Ausweis Process",
+    "template": "CH0X_02",
+    "image": "assets/chapter3/images/document w rejected text-01.png",
+    "content": "Your obligations include abiding by all deadlines determined by the Asylum Service throughout the different stages of the asylum procedure.  Please note if you fail to abide by any deadline, your asylum application may significantly be delayed or even, in the worst-case scenario, rejected.\n\nAs an applicant for international protection in Greece, you must remain in Greece until the examination of your application is completed.",
+    "buttons": [{
+      "text": "Left",
+      "linkto": "CH03_02-074"
+    }, {
+      "text": "Right",
+      "linkto": "CH03_02-076"
+    }]
+  },
+
+  {
+    "id": "CH03_02-076",
+    "title": "Unaccompanied Minor - Registration Interview and Ausweis Process",
+    "header": "Unaccompanied Minor - Registration Interview and Ausweis Process",
+    "template": "CH0X_02",
+    "image": "assets/chapter3/images/minor holding ausweis-01.png",
+    "content": "As an unaccompanied minor, you will be transported to a special facility maintained for unaccompanied minors until the examination of your application is completed or you reach 18 years of age.  Your ausweis will be kept with the facility that houses you.\n\nIf you leave the area of residence which was determined for you or Greece without informing the Greek authorities beforehand, your asylum application may severely be harmed and the Greek Asylum Service may consider that you are not interested in the continuation of your asylum application and may discontinue its examination.  If your asylum application is no longer examined, you will be forced to leave Greece.",
+    "buttons": [{
+      "text": "Left",
+      "linkto": "CH03_02-075"
+    }, {
+      "text": "Right",
+      "linkto": "CH03_02-077"
+    }]
+  },
+
+  {
+    "id": "CH03_02-077",
+    "title": "Unaccompanied Minor - Registration Interview and Ausweis Process",
+    "header": "Unaccompanied Minor - Registration Interview and Ausweis Process",
+    "template": "CH0X_02",
+    "image": "assets/chapter3/images/document w rejected text-01.png",
+    "content": "You must cooperate with the Greek authorities regarding any issue related to your application and the verification of your personal data.\n\nYou must immediately inform the Greek Asylum Service or EASO of any changes in your residence or contact information.  This is particularly important as the Asylum Service or EASO may want to get in touch with you anytime to communicate any updates on your asylum application or ask for additional information.\n\nIf you fail to provide information that was asked by the Asylum Service and this information is of great importance to your case or the Asylum Service is unable to contact you, the Asylum Service may consider that you are not interested in the continuation of your asylum application and may discontinue its examination.  If your asylum application is no longer examined, you will be forced to leave Greece.",
+    "buttons": [{
+      "text": "Left",
+      "linkto": "CH03_02-076"
+    }, {
+      "text": "Right",
+      "linkto": "CH03_02-078"
+    }]
+  },
+
+  {
+    "id": "CH03_02-078",
+    "title": "Unaccompanied Minor - Registration Interview and Ausweis Process",
+    "header": "Unaccompanied Minor - Registration Interview and Ausweis Process",
+    "template": "CH0X_02",
+    "image": "assets/chapter3/images/tent-01.png",
+    "content": "While you wait for your eligibility interview, you must comply with all regulations of the First Reception and Identification Center (Moria) or any other facility where you are housed, and you must abide by Greek law.\n\nYour ausweis will be kept with your guardian in a secure location and s/he must be able to present it to the Greek authorities upon request.\n\nFollowing your registration, your guardian may put you into contact with an NGO or any other organization that provides legal, medical, and psychological support.\n\nPlease note, you may be eligible to receive a small amount (5-10 euros per individual per month) of allowance from UNHCR following your registration until you receive a second rejection on your appeal from the Independent Appeals Authority.",
+    "buttons": [{
+      "text": "Left",
+      "linkto": "CH03_02-077"
+    }, {
+      "text": "Right",
+      "linkto": "CH04_01-001"
+    }]
+  },
+  {
+    "id": "CH05_01-001",
+    "title": "Appeal Asylum Process",
+    "header": "Appeal Asylum Process",
+    "template": "CH0X_01",
+    "image": "",
+    "content" : "In order to submit an appeal to the Greek Asylum Service, you must have received a rejection of your asylum application.\n\nPlease note you must be notified by the Asylum Service of their rejection of your asylum application before you have the right to submit an appeal and ask the Greek Asylum Service to reconsider its decision.\n\nPlease note you must appear in person at the Regional Asylum Office in Lesvos that notified you of the negative decision to submit an appeal.",
+    "buttons": [{
+      "text": "Left",
+      "linkto": ""
+    }, {
+      "text": "Right",
+      "linkto": "CH05_02-002"
+    }]
+  },
+
+  {
+    "id": "CH05_02-002",
+    "title": "Appeal Asylum Process",
+    "header": "Appeal Asylum Process",
+    "template": "CH0X_02",
+    "image": "assets/chapter5/images/person in court-01.png",
+    "content" : "If you fail to appear in person in front of the Regional Asylum Office that notified you of the negative decision, you will not be allowed to file an appeal and will be forced to leave Greece.\n\nPlease note you must submit an appeal in writing by filling out a form of the Greek Asylum Service.\n\nThe Greek Asylum Service will provide you a date when your case will be examined by the Appeals Committee.",
+    "buttons": [{
+      "text": "Left",
+      "linkto": "CH05_01-001"
+    }, {
+      "text": "Right",
+      "linkto": "CH05_02-003"
+    }]
+  },
+
+  {
+    "id": "CH05_02-003",
+    "title": "Appeal Asylum Process",
+    "header": "Appeal Asylum Process",
+    "template": "CH0X_02",
+    "image": "assets/chapter5/images/lawyer-01.png",
+    "content" : "You will have to find a lawyer or legally-trained professional, who speaks Greek and is allowed to practice law in Greece, to submit a memo that indicates well-founded reasons why you are appealing the previous negative decision of the Greek Asylum Service and why you think you should be granted asylum status.\n\nThe memo must be submitted at least two days before the examination of the appeal.",
+    "buttons": [{
+      "text": "Left",
+      "linkto": "CH05_02-002"
+    }, {
+      "text": "Right",
+      "linkto": "CH05_02-004"
+    }]
+  },
+
+  {
+    "id": "CH05_02-004",
+    "title": "Appeal Asylum Process",
+    "header": "Appeal Asylum Process",
+    "template": "CH0X_02",
+    "image": "assets/chapter5/images/lawyer talking-01.png",
+    "content" : "If you wish to seek help from a Greek lawyer to submit your appeal, please indicate such a request to the Greek Asylum Service and they must assign you one free of charge.\n\nIf the Greek Asylum Service fails to assign you a lawyer or you are unable to find a lawyer free of charge, you may request rescheduling your appeal date through a form provided by the Greek Asylum Service until you have found a lawyer",
+    "buttons": [{
+      "text": "Left",
+      "linkto": "CH05_02-003"
+    }, {
+      "text": "Right",
+      "linkto": "CH05_02-005"
+    }]
+  },
+
+  {
+    "id": "CH05_02-005",
+    "title": "Appeal Asylum Process",
+    "header": "Appeal Asylum Process",
+    "template": "CH0X_02",
+    "image": "assets/chapter5/images/uniformed personnel talking to person with calendar-01.png",
+    "content" : "If the lawyer who is helping you with your appeal case did not contact you or you are not satisfied with his/her services, you have the right to request rescheduling your appeal date and seek the services of a new lawyer.",
+    "buttons": [{
+      "text": "Left",
+      "linkto": "CH05_02-004"
+    }, {
+      "text": "Right",
+      "linkto": "CH05_02-006"
+    }]
+  },
+
+  {
+    "id": "CH05_02-006",
+    "title": "Appeal Asylum Process",
+    "header": "Appeal Asylum Process",
+    "template": "CH0X_02",
+    "image": "assets/chapter5/images/uniformed personnel talking to woman-01.png",
+    "content" : "The Independent Appeals Authority will examine your request for postponement of your appeal date on the same date that you submitted such request and they will decide whether to proceed with the examination of your appeal on the original date or postpone it to a new date.",
+    "buttons": [{
+      "text": "Left",
+      "linkto": "CH05_02-005"
+    }, {
+      "text": "Right",
+      "linkto": "CH05_02-007"
+    }]
+  },
+
+  {
+    "id": "CH05_02-007",
+    "title": "Appeal Asylum Process",
+    "header": "Appeal Asylum Process",
+    "template": "CH0X_02",
+    "image": "assets/chapter5/images/pictures with evidence-01.png",
+    "content" : "Please make sure to include any new evidence and/or medical records that you have obtained or have been given since your admissibility and eligibility interviews as you submit your appeal.  Submission of any new evidence or medical records could be beneficial as you argue for an appeal of a previous negative decision.",
+    "buttons": [{
+      "text": "Left",
+      "linkto": "CH05_02-006"
+    }, {
+      "text": "Right",
+      "linkto": "CH05_02-008"
+    }]
+  },
+
+  {
+    "id": "CH05_02-008",
+    "title": "Appeal Asylum Process",
+    "header": "Appeal Asylum Process",
+    "template": "CH0X_02",
+    "image": "assets/chapter5/images/calendar 5 days beside-01.png",
+    "content" : "You have five calendar days to submit an appeal at the Regional Asylum Office in Lesvos that notified you of the negative decision in writing.  The five-calendar-day-appeal-period starts on the next day after the date you were notified of the negative decision. Please note the appeal period is five calendar days as opposed to five business days, which means you may have less than five business days to submit an appeal.\n\nIf you fail to submit an appeal in five calendar days following your notification of the negative decision in front of the Regional Asylum Office that notified you of the negative decision, you will not be allowed to file an appeal and will be forced to leave Greece.",
+    "buttons": [{
+      "text": "Left",
+      "linkto": "CH05_02-007"
+    }, {
+      "text": "Right",
+      "linkto": "CH05_04-011"
+    }]
+  },
+
+  {
+    "id": "CH05_02-009",
+    "title": "Vulnerable Person - Appeal Submission",
+    "header": "Vulnerable Person - Appeal Submission",
+    "template": "CH0X_02",
+    "image": "assets/chapter5/images/disabled person 30 days-01.png",
+    "content" : "You have 30 calendar days to submit an appeal at the Regional Asylum Office or regional Asylum Office dispatched unit that notified you of the negative decision in writing.  The 30-calendar-day-appeal-period starts on the next day after the date you were notified of the negative decision.  Please note the appeal period is 30 calendar days as opposed to 30 business days, which means you will have less than 30 business days to submit an appeal.",
+    "buttons": [{
+      "text": "Left",
+      "linkto": "CH05_02-008"
+    }, {
+      "text": "Right",
+      "linkto": "CH05_02-010"
+    }]
+  },
+
+  {
+    "id": "CH05_02-010",
+    "title": "Vulnerable Person - Appeal Submission",
+    "header": "Vulnerable Person - Appeal Submission",
+    "template": "CH0X_02",
+    "image": "assets/chapter5/images/person with bag w calendar 30 days-01.png",
+    "content" : "If you fail to submit an appeal in 30 calendar days following your notification of the negative decision in front of the Regional Asylum Office or regional Asylum Office dispatched unit that notified you of the negative decision, you will not be allowed to file an appeal and will be forced to leave Greece.",
+    "buttons": [{
+      "text": "Left",
+      "linkto": "CH05_02-009"
+    }, {
+      "text": "Right",
+      "linkto": "CH05_04-011"
+    }]
+  },
+
+  {
+    "id": "CH05_04-011",
+    "title": "Do you wish to submit an appeal?",
+    "header": "Do you wish to submit an appeal?",
+    "template": "CH0X_04",
+    "image": "",
+    "content" : "",
+    "buttons": [{
+      "text": "Yes",
+      "linkto": "CH05_03-017"
+    }, {
+      "text": "No",
+      "linkto": "CH05_04-012"
+    }]
+  },
+
+  {
+    "id": "CH05_04-012",
+    "title": "You are not eligible to seek asylum",
+    "header": "You are not eligible to seek asylum",
+    "template": "CH0X_04",
+    "image": "assets/chapter5/images/troubled person not eligible-01.pngg",
+    "content" : "",
+    "buttons": [{
+      "text": "Return to Turkey",
+      "linkto": "CH04_02-022"
+    }, {
+      "text": "Seek IOM",
+      "linkto": "CH05_03-013"
+    }]
+  },
+
+  {
+    "id": "CH05_03-013",
+    "title": "Seek help from IOM Process",
+    "header": "Seek help from IOM Process",
+    "template": "CH0X_03",
+    "image": "assets/chapter5/images/IOM logo-01.png",
+    "content" : "You may either seek appeal or benefit from IOM’s Assisted Voluntary Return and Reintegration program; hence, you may not choose both options.\n\nIf you select to appeal the decision of the Greek Asylum Service, you will not be able to benefit from IOM’s Assisted Voluntary Return and Reintegration program.",
+    "buttons": [{
+      "text": "Left",
+      "linkto": "CH05_04-012"
+    }, {
+      "text": "Right",
+      "linkto": "CH05_03-014"
+    }]
+  },
+
+  {
+    "id": "CH05_03-014",
+    "title": "Seek help from IOM Process",
+    "header": "Seek help from IOM Process",
+    "template": "CH0X_03",
+    "image": "",
+    "content" : "YYou may either seek appeal or benefit from IOM’s Assisted Voluntary Return and Reintegration program; hence, you may not choose both options.\n\nIf you select to appeal the decision of the Greek Asylum Service, you will not be able to benefit from IOM’s Assisted Voluntary Return and Reintegration program.",
+    "buttons": [{
+      "text": "Left",
+      "linkto": "CH05_04-013"
+    }, {
+      "text": "Right",
+      "linkto": "CH05_04-015"
+    }]
+  },
+
+  {
+    "id": "CH05_04-015",
+    "title": "Seek help from IOM Process",
+    "header": "Seek help from IOM Process",
+    "template": "CH0X_04",
+    "image": "assets/chapter5/images/calendar 30 days-01.png",
+    "content" : "Please note you also have 30 calendar days to benefit from Assisted Voluntary Return and Reintegration (AVRR) provided by the International Organization for Migration (IOM) if you decide not to seek appeal of the negative decision of the Greek Asylum Service.\n\nPlease note if you have benefited before from IOM’s Assisted Voluntary Return and Reintegration program, you will not be able to do so for the second time.",
+    "buttons": [{
+      "text": "Left",
+      "linkto": "CH05_03-014"
+    }, {
+      "text": "Right",
+      "linkto": "CH05_03-016"
+    }]
+  },
+
+  {
+    "id": "CH05_03-016",
+    "title": "Seek help from IOM Process",
+    "header": "Seek help from IOM Process",
+    "template": "CH0X_03",
+    "image": "",
+    "content" : "Since you have 30 calendar days following notification by the Greek Asylum Service on the negative decision of your asylum claim, if you are interested in benefiting from IOM’s Assisted Voluntary Return and Reintegration program, you must indicate such interest as soon as possible by contacting IOM’s representative.\n\nPlease contact an employee of the International Organization for Migration (IOM) at hq@iom.int or info@iom.int or +41.22.717 9111 or +41.22.798 6150 to see if there is a program to voluntary return to your country of origin or country of previous residence.  If there is such program, IOM officials will assist you with your return to your country of origin or country of previous residence.  You may find further information on IOM through their website: https://www.iom.int/.",
+    "buttons": [{
+      "text": "Left",
+      "linkto": "CH05_04-015"
+    }, {
+      "text": "Right",
+      "linkto": "endAsylum_07-001"
+    }]
+  },
+
+  {
+    "id": "CH05_02-017",
+    "title": "Proceed with Submission of an Appeal",
+    "header": "Proceed with Submission of an Appeal",
+    "template": "CH0X_02",
+    "image": "assets/chapter5/images/person w calendar beside 1 week-01.png",
+    "content" : "Examination of an appeal may take from one week to several months following your submission of an appeal depending on the workload of the Greek Asylum Service and the nature of your case.\n\nYou will be notified by the Regional Asylum Office of the date when your appeal will be examined.",
+    "buttons": [{
+      "text": "Left",
+      "linkto": "CH05_04-011"
+    }, {
+      "text": "Right",
+      "linkto": "CH05_02-018"
+    }]
+  },
+
+  {
+    "id": "CH05_02-018",
+    "title": "Proceed with Submission of an Appeal",
+    "header": "Proceed with Submission of an Appeal",
+    "template": "CH0X_02",
+    "image": "assets/chapter5/images/person w sad face for deportation-01.png",
+    "content" : "Please note the Independent Appeals Authority will not decide on your case on the day that your appeal is examined. \n\nPlease note you may decide to withdraw your appeal anytime while awaiting the date when the examination of your appeal is scheduled.  This however means, upon withdrawal of your appeal, you will not be able to obtain asylum status and will be forced to leave Greece immediately.",
+    "buttons": [{
+      "text": "Left",
+      "linkto": "CH05_02-017"
+    }, {
+      "text": "Right",
+      "linkto": "CH05_04-019"
+    }]
+  },
+
+  {
+    "id": "CH05_04-019",
+    "title": "Do you wish to withdraw your appeal?",
+    "header": "Do you wish to withdraw your appeal?",
+    "template": "CH0X_02",
+    "image": "",
+    "content" : "",
+    "buttons": [{
+      "text": "Yes",
+      "linkto": "CH04_04-016"
+    }, {
+      "text": "No",
+      "linkto": "CH05_04-020"
+    }]
+  },
+
+  {
+    "id": "CH05_04-020",
+    "title": "Continue with Appeal Process",
+    "header": "Continue with Appeal Process",
+    "template": "CH0X_04",
+    "image": "assets/chapter5/images/person talking to uniformed personnel athens-01.png",
+    "content" : "Please note your appeal will be examined by an Independent Appeals Authority based in Athens and not by the Regional Asylum Offices in Lesvos or any other Regional Asylum Office or regional Asylum Office dispatched units.",
+    "buttons": [{
+      "text": "Left",
+      "linkto": "CH05_04-019"
+    }, {
+      "text": "Right",
+      "linkto": "CH05_02-021"
+    }]
+  },
+
+  {
+    "id": "CH05_02-021",
+    "title": "Continue with Appeal Process",
+    "header": "Continue with Appeal Process",
+    "template": "CH0X_02",
+    "image": "assets/chapter5/images/judge and lawyer-01.png",
+    "content" : "The Independent Appeals Authority typically consists of two Administrative Appeals Court Justices and an UNHCR lawyer who review an applicant’s evidence from the registration, admissibility, and eligibility interviews as well as any other materials previously submitted to the Greek Asylum Service and contained in the applicant’s asylum file.",
+    "buttons": [{
+      "text": "Left",
+      "linkto": "CH05_04-020"
+    }, {
+      "text": "Right",
+      "linkto": "CH05_02-022"
+    }]
+  },
+
+  {
+    "id": "CH05_02-022",
+    "title": "Continue with Appeal Process",
+    "header": "Continue with Appeal Process",
+    "template": "CH0X_02",
+    "image": "assets/chapter5/images/uniformed personnel talking to woman-01.png",
+    "content" : "Please note the Independent Appeals Authority typically does not conduct an actual hearing of the applicant.\n\nAs you file your appeal at the Regional Asylum Office, you have the right to request that you want to be present during the examination of your asylum file by the Independent Appeals Authority.  This decision, however, entirely rests with the Independent Appeals Authority and they may decide that you will not be allowed to be present during the examination.",
+    "buttons": [{
+      "text": "Left",
+      "linkto": "CH05_02-021"
+    }, {
+      "text": "Right",
+      "linkto": "CH05_02-023"
+    }]
+  },
+
+  {
+    "id": "CH05_02-023",
+    "title": "Continue with Appeal Process",
+    "header": "Continue with Appeal Process",
+    "template": "CH0X_02",
+    "image": "assets/chapter5/images/person in court-01.png",
+    "content" : "In case the Independent Appeals Authority decides to call you for a hearing, you will be notified at least one working day before the date of the hearing.\n\nPlease note even if you do not present yourself before the Independent Appeals Authority, the examination of your appeal will proceed.  It is, however, highly recommended to appear in front of the Committee if they ask you to do so to support your case and obtain a more beneficial outcome for yourself.",
+    "buttons": [{
+      "text": "Left",
+      "linkto": "CH05_02-022"
+    }, {
+      "text": "Right",
+      "linkto": "CH05_02-024"
+    }]
+  },
+
+  {
+    "id": "CH05_02-024",
+    "title": "Continue with Appeal Process",
+    "header": "Continue with Appeal Process",
+    "template": "CH0X_02",
+    "image": "assets/chapter5/images/person and lawyer-01.png",
+    "content" : "You have the right to present yourself to the Independent Appeals Authority accompanied by a lawyer or other counselor, but it is not mandatory to have one as you appear in front of the Committee.\n\nIt is highly recommended to have a lawyer with you though, who is allowed to practice and represent you in Greece, as you appear in front of the Independent Appeals Authority to support your claims and assist you answering questions of the Committee.",
+    "buttons": [{
+      "text": "Left",
+      "linkto": "CH05_02-023"
+    }, {
+      "text": "Right",
+      "linkto": "CH05_02-025"
+    }]
+  },
+
+  {
+    "id": "CH05_02-025",
+    "title": "Continue with Appeal Process",
+    "header": "Continue with Appeal Process",
+    "template": "CH0X_02",
+    "image": "assets/chapter5/images/evidence w pictures of storm and disabled-01.png",
+    "content" : "You also have the right to submit additional evidence for the Independent Appeals Authority up to two days before your appeal is examined.  The Committee will take these evidence into consideration to make its decision accordingly if they are submitted in time.",
+    "buttons": [{
+      "text": "Left",
+      "linkto": "CH05_02-024"
+    }, {
+      "text": "Right",
+      "linkto": "CH05_02-026"
+    }]
+  },
+
+  {
+    "id": "CH05_02-026",
+    "title": "Continue with Appeal Process",
+    "header": "Continue with Appeal Process",
+    "template": "CH0X_02",
+    "image": "assets/chapter5/images/evidence and calendar 2 days-01.png",
+    "content" : "If you have not been able to obtain an evidence you feel is crucial for your appeal, if you have been unable to secure a lawyer to be present with you during the appeal hearing, or if you have any other well-grounded reason, you may request a postponement of the examination of your appeal up to two days before your appeal is examined.",
+    "buttons": [{
+      "text": "Left",
+      "linkto": "CH05_02-025"
+    }, {
+      "text": "Right",
+      "linkto": "CH05_02-027"
+    }]
+  },
+
+  {
+    "id": "CH05_02-027",
+    "title": "Continue with Appeal Process",
+    "header": "Continue with Appeal Process",
+    "template": "CH0X_02",
+    "image": "assets/chapter5/images/person w calendar beside-01.png",
+    "content" : "The Independent Appeals Authority’s decision to grant you refugee status, subsidiary protection status, humanitarian status, or reject your appeal may be made from a few days to several months after the examination of your appeal on the basis of all evidence and the answers provided in case a hearing takes place.",
+    "buttons": [{
+      "text": "Left",
+      "linkto": "CH05_02-026"
+    }, {
+      "text": "Right",
+      "linkto": "CH05_02-028"
+    }]
+  },
+
+  {
+    "id": "CH05_02-028",
+    "title": "Continue with Appeal Process",
+    "header": "Continue with Appeal Process",
+    "template": "CH0X_02",
+    "image": "assets/chapter5/images/walking away with x-01.png",
+    "content" : "Please note you may decide to withdraw your appeal anytime while you are awaiting a decision of the Independent Appeals Authority.  This, however, means, upon withdrawal of your appeal, you will not be able to obtain asylum and will be forced to leave Greece immediately.",
+    "buttons": [{
+      "text": "Left",
+      "linkto": "CH05_02-027"
+    }, {
+      "text": "Right",
+      "linkto": "CH05_04-029"
+    }]
+  },
+
+  {
+    "id": "CH05_04-029",
+    "title": "Do you wish to withdraw your appeal?",
+    "header": "Do you wish to withdraw your appeal?",
+    "template": "CH0X_04",
+    "image": "",
+    "content" : "",
+    "buttons": [{
+      "text": "Yes",
+      "linkto": "CH05_04-030"
+    }, {
+      "text": "No",
+      "linkto": "CH05_04-031"
+    }]
+  },
+
+  {
+    "id": "CH05_04-030",
+    "title": "How do you want to leave Greece?",
+    "header": "How do you want to leave Greece?",
+    "template": "CH0X_04",
+    "image": "",
+    "content" : "",
+    "buttons": [{
+      "text": "Return to Turkey",
+      "linkto": "CH05_04-017"
+    }, {
+      "text": "Seek IOM",
+      "linkto": "CH04_03-020"
+    }]
+  },
+
+  {
+    "id": "CH05_02-031",
+    "title": "Awaiting Appeal Results",
+    "header": "Awaiting Appeal Results",
+    "template": "CH0X_02",
+    "image": "assets/chapter5/images/pictures with evidence-01.png",
+    "content" : "While you are awaiting the Independent Appeals Authority’s decision, you may provide new, substantial evidence to the Greek Asylum Service that you previously did not provide.  The Asylum Service will forward this evidence to the Independent Appeals Authority for their examination and take them into consideration as they make their decision on your asylum application.",
+    "buttons": [{
+      "text": "Left",
+      "linkto": "CH05_04-029"
+    }, {
+      "text": "Right",
+      "linkto": "CH05_02-032"
+    }]
+  },
+
+  {
+    "id": "CH05_02-032",
+    "title": "Awaiting Appeal Results",
+    "header": "Awaiting Appeal Results",
+    "template": "CH0X_02",
+    "image": "assets/chapter5/images/person w greece flag-01.png",
+    "content" : "Between a week and several months following the examination of your appeal, the Independent Appeals Authority will decide whether to grant you asylum status, subsidiary protection status, refer your case for humanitarian status, or reject your application.",
+    "buttons": [{
+      "text": "Left",
+      "linkto": "CH05_02-031"
+    }, {
+      "text": "Right",
+      "linkto": "CH05_02-033"
+    }]
+  },
+
+  {
+    "id": "CH05_02-033",
+    "title": "Awaiting Appeal Results",
+    "header": "Awaiting Appeal Results",
+    "template": "CH0X_02",
+    "image": "assets/chapter5/images/uniformed personnel w thought bubble calling-01.png",
+    "content" : "The Asylum Service will contact you regarding the Independent Appeals Authority’s decision on your asylum application through the contact information you provided them during the registration, admissibility and eligibility interviews.  You may be contacted via telephone, letter, e-mail, fax, or in person, as you renew your ausweis.\n\nPlease note the Asylum Service will notify you of the decision in your mother tongue or previously indicated preferred language in writing or orally with the assistance of an interpreter.",
+    "buttons": [{
+      "text": "Left",
+      "linkto": "CH05_02-032"
+    }, {
+      "text": "Right",
+      "linkto": "CH05_02-034"
+    }]
+  },
+
+  {
+    "id": "CH05_02-034",
+    "title": "Awaiting Appeal Results",
+    "header": "Awaiting Appeal Results",
+    "template": "CH0X_02",
+    "image": "assets/chapter5/images/person w document resident permit-01.png",
+    "content" : "If you obtain asylum status, you may receive a residence permit in Greece for three years.  You will be able to live and work in the country and your family can also join you immediately.\n\nYou may also extend your residence permit in Greece beyond three years online through the website of the Hellenic Ministry of Migration Policy or you may seek naturalization after three years of legal residency in Greece if you meet certain financial sustainability and language criteria.",
+    "buttons": [{
+      "text": "Left",
+      "linkto": "CH05_02-033"
+    }, {
+      "text": "Right",
+      "linkto": "CH05_02-035"
+    }]
+  },
+
+  {
+    "id": "CH05_02-035",
+    "title": "Awaiting Appeal Results",
+    "header": "Awaiting Appeal Results",
+    "template": "CH0X_02",
+    "image": "assets/chapter5/images/person w document subsidiary status-01.png",
+    "content" : "Subsidiary protection does not entail the same rights as asylum protection status.\n\nIf you obtain subsidiary protection, you may receive a residence permit in Greece for three year.  You will be able to live and work in Greece for three years.  Your family will however not be able to join you immediately.  Your family members may only be able to join you following a few years if you still have subsidiary protection status at that point.",
+    "buttons": [{
+      "text": "Left",
+      "linkto": "CH05_02-034"
+    }, {
+      "text": "Right",
+      "linkto": "CH05_02-036"
+    }]
+  },
+
+  {
+    "id": "CH05_08-036",
+    "title": "Which are you interested in learning more about?",
+    "header": "Which are you interested in learning more about?",
+    "template": "CH0X_08",
+    "image": "",
+    "content" : "",
+    "buttons": [{
+      "text": "Asylum Status",
+      "linkto": "CH04_03-066"
+    }, {
+      "text": "Subsidiary Protection Status",
+      "linkto": "CH05_02-037"
+    }, {
+      "text": "Rejection of Asylum Application",
+      "linkto": "CH05_03-072"
+    }]
+  },
+
+  {
+    "id": "CH05_02-037",
+    "title": "Learn More About: Subsidiary Protection Status",
+    "header": "Learn More About: Subsidiary Protection Status",
+    "template": "CH0X_02",
+    "image": "assets/chapter5/images/person w document subsidiary status-01.png",
+    "content" : "If the decision of the Independent Appeals Authority is to grant you subsidiary protection status, you will receive a residence permit in Greece. \n\nPlease note subsidiary protection does not entail the same rights as asylum protection status.  Accordingly, the residence permit you are granted under subsidiary protection status will be valid for three years and your family members will not be able to join you immediately.\n\nYou may seek extension of your subsidiary protection status following its expiry.",
+    "buttons": [{
+      "text": "Left",
+      "linkto": "CH05_08-036"
+    }, {
+      "text": "Right",
+      "linkto": "CH05_02-038"
+    }]
+  },
+
+  {
+    "id": "CH05_02-038",
+    "title": "Learn More About: Subsidiary Protection Status",
+    "header": "Learn More About: Subsidiary Protection Status",
+    "template": "CH0X_02",
+    "image": "assets/chapter5/images/workinf personnel w greek flag-01.png",
+    "content" : "Under subsidiary protection status, you will be allowed to live and work in Greece.\n\nYour family members may only be able to join you in Greece following a few years if you still have subsidiary protection status at that point.\n\nIf you received subsidiary protection status but you wish to obtain asylum status, you may appeal the decision of the Greek Asylum Service.",
+    "buttons": [{
+      "text": "Left",
+      "linkto": "CH05_02-037"
+    }, {
+      "text": "Right",
+      "linkto": "CH05_04-039"
+    }]
+  },
+
+  {
+    "id": "CH05_04-039",
+    "title": "Do you wish to accept the decision of the Independent Appeals Authority?",
+    "header": "Do you wish to accept the decision of the Independent Appeals Authority?",
+    "template": "CH0X_04",
+    "image": "",
+    "content" : "",
+    "buttons": [{
+      "text": "Accept",
+      "linkto": "endAsylum_07-001"
+    }, {
+      "text": "Appeal",
+      "linkto": "CH05_02-040"
+    }]
+  },
+
+  {
+    "id": "CH05_02-040",
+    "title": "Appeal Subsidiary Protection Status",
+    "header": "Appeal Subsidiary Protection Status",
+    "template": "CH0X_02",
+    "image": "assets/chapter5/images/uniformed personnel talking to woman-01.png",
+    "content" : "In order to submit an appeal to the Greek Asylum Service against a decision that granted you subsidiary protection, you must have been granted subsidiary protection status while you were seeking asylum status.\n\nPlease note you must be notified by the Asylum Service of the issuance of subsidiary protection status for you before you have the right to submit an appeal and ask the Greek Asylum Service to reconsider its decision.",
+    "buttons": [{
+      "text": "Left",
+      "linkto": "CH05_04-039"
+    }, {
+      "text": "Right",
+      "linkto": "CH05_02-041"
+    }]
+  },
+
+  {
+    "id": "CH05_02-041",
+    "title": "Appeal Subsidiary Protection Status",
+    "header": "Appeal Subsidiary Protection Status",
+    "template": "CH0X_02",
+    "image": "assets/chapter5/images/handing document-01.png",
+    "content" : "Please note you must appear in person at the Regional Asylum Office in Lesvos that notified you of the negative decision to submit an appeal.\n\nIf you fail to appear in person in front of the Regional Asylum Office that notified you of the negative decision, you will not be allowed to file an appeal and will remain on subsidiary protection status.\n\nPlease note you must submit an appeal in writing by filling out a form of the Greek Asylum Service.",
+    "buttons": [{
+      "text": "Left",
+      "linkto": "CH05_04-040"
+    }, {
+      "text": "Right",
+      "linkto": "CH05_02-042"
+    }]
+  },
+
+  {
+    "id": "CH05_02-042",
+    "title": "Appeal Subsidiary Protection Status",
+    "header": "Appeal Subsidiary Protection Status",
+    "template": "CH0X_02",
+    "image": "assets/chapter5/images/lawyer and uniformed personnel w calendar-01.png",
+    "content" : "The Greek Asylum Service will provide you a date when your case will be examined by the Appeals Committee.\n\nYou will have to find a lawyer or legally-trained professional, who speaks Greek and is allowed to practice law in Greece, to submit a memo that indicates well-founded reasons why you are appealing the previous negative decision of the Greek Asylum Service and why you think you should be granted asylum status.\n\nThe memo must be submitted at least two days before the examination of the appeal.",
+    "buttons": [{
+      "text": "Left",
+      "linkto": "CH05_02-041"
+    }, {
+      "text": "Right",
+      "linkto": "CH05_02-043"
+    }]
+  },
+
+  {
+    "id": "CH05_02-043",
+    "title": "Appeal Subsidiary Protection Status",
+    "header": "Appeal Subsidiary Protection Status",
+    "template": "CH0X_02",
+    "image": "assets/chapter5/images/lawyer-01.png",
+    "content" : "If you wish to seek help from a Greek lawyer to submit your appeal, please indicate such a request to the Greek Asylum Service and they must assign you one free of charge.\n\nIf the Greek Asylum Service fails to assign you a lawyer or you are unable to find a lawyer free of charge, you may request rescheduling your appeal date until you have found a lawyer through a form provided by the Greek Asylum Service.\n\nIf the lawyer who is helping you with your appeal case did not contact you or you are not satisfied with his/her services, you have the right to request rescheduling your appeal date and seek the services of a new lawyer.",
+    "buttons": [{
+      "text": "Left",
+      "linkto": "CH05_02-042"
+    }, {
+      "text": "Right",
+      "linkto": "CH05_02-044"
+    }]
+  },
+
+  {
+    "id": "CH05_02-044",
+    "title": "Appeal Subsidiary Protection Status",
+    "header": "Appeal Subsidiary Protection Status",
+    "template": "CH0X_02",
+    "image": "assets/chapter5/images/documents or evidence-01.png",
+    "content" : "The Independent Appeals Authority will examine your request for postponement of your appeal date on the same date that you submitted such request and they will decide whether to proceed with the examination of your appeal on the original date or postpone it to a new date.\n\nPlease make sure to include any new evidence and/or medical records that you have obtained or have been given since your admissibility and eligibility interviews as you submit your appeal.  Submission of any new evidence or medical records could be beneficial as you argue for an appeal of a previous negative decision.",
+    "buttons": [{
+      "text": "Left",
+      "linkto": "CH05_02-043"
+    }, {
+      "text": "Right",
+      "linkto": "CH05_02-045"
+    }]
+  },
+
+  {
+    "id": "CH05_02-045",
+    "title": "Appeal Subsidiary Protection Status",
+    "header": "Appeal Subsidiary Protection Status",
+    "template": "CH0X_02",
+    "image": "assets/chapter5/images/calendar 5 days-01.png",
+    "content" : "You have five calendar days to submit an appeal at the Regional Asylum Office or regional Asylum Office dispatched unit that notified you of the negative decision.  The five-calendar-day-appeal-period starts on the next day after the date you were notified of the negative decision.  Please note the appeal period is five calendar days as opposed to five business days, which means you may have less than five business days to submit an appeal.",
+    "buttons": [{
+      "text": "Left",
+      "linkto": "CH05_02-044"
+    }, {
+      "text": "Right",
+      "linkto": "CH05_02-046"
+    }]
+  },
+
+  {
+    "id": "CH05_02-046",
+    "title": "Appeal Subsidiary Protection Status",
+    "header": "Appeal Subsidiary Protection Status",
+    "template": "CH0X_02",
+    "image": "assets/chapter5/images/calendar 5 days no appeal-01.png",
+    "content" : "If you fail to submit an appeal in five calendar days following your notification of the negative decision in front of the Regional Asylum Office in Lesvos that notified you of the negative decision, you will not be allowed to file an appeal and will remain on subsidiary protection status.",
+    "buttons": [{
+      "text": "Left",
+      "linkto": "CH05_02-045"
+    }, {
+      "text": "Right",
+      "linkto": "CH05_02-047"
+    }]
+  },
+
+  {
+    "id": "CH05_02-047",
+    "title": "Appeal Subsidiary Protection Status",
+    "header": "Appeal Subsidiary Protection Status",
+    "template": "CH0X_02",
+    "image": "assets/chapter5/images/calendar 30 days-01.png",
+    "content" : "You have 30 calendar days to submit an appeal at the Regional Asylum Office in Lesvos that notified you of the negative decision.  The 30-calendar-day-appeal-period starts on the next day after the date you were notified of the negative decision.  Please note the appeal period is 30 calendar days as opposed to 30 business days, which means you will have less than 30 business days to submit an appeal.",
+    "buttons": [{
+      "text": "Left",
+      "linkto": "CH05_02-046"
+    }, {
+      "text": "Right",
+      "linkto": "CH05_02-048"
+    }]
+  },
+
+  {
+    "id": "CH05_02-048",
+    "title": "Appeal Subsidiary Protection Status",
+    "header": "Appeal Subsidiary Protection Status",
+    "template": "CH0X_02",
+    "image": "assets/chapter5/images/calendar 30 days no appeal-01.png",
+    "content" : "If you fail to submit an appeal in 30 calendar days following your notification of the negative decision in front of the Regional Asylum Office that notified you of the negative decision, you will not be allowed to file an appeal and will remain on subsidiary protection status.",
+    "buttons": [{
+      "text": "Left",
+      "linkto": "CH05_02-047"
+    }, {
+      "text": "Right",
+      "linkto": "CH05_02-049"
+    }]
+  },
+
+  {
+    "id": "CH05_02-049",
+    "title": "Examination of Appeal",
+    "header": "Examination of Appeal",
+    "template": "CH0X_02",
+    "image": "assets/chapter5/images/uniformed phone call-01.png",
+    "content" : "Examination of an appeal may take from a week to several months following your submission of an appeal depending on the workload of the Greek Asylum Service and the nature of your case.\n\nYou will be notified by the Regional Asylum Office of the date when your appeal will be examined.",
+    "buttons": [{
+      "text": "Left",
+      "linkto": "CH05_02-048"
+    }, {
+      "text": "Right",
+      "linkto": "CH05_02-050"
+    }]
+  },
+
+  {
+    "id": "CH05_02-050",
+    "title": "Examination of Appeal",
+    "header": "Examination of Appeal",
+    "template": "CH0X_02",
+    "image": "assets/chapter5/images/walking away with x-01.png",
+    "content" : "Please note the Independent Appeals Authority will not decide on your case on the day that your appeal is examined. \n\nPlease note you may decide to withdraw your appeal anytime while awaiting the date when the examination of your appeal is scheduled.  This however means, upon withdrawal of your appeal, you will not be able to obtain asylum status and will remain on subsidiary protection status.",
+    "buttons": [{
+      "text": "Left",
+      "linkto": "CH05_02-049"
+    }, {
+      "text": "Right",
+      "linkto": "CH05_04-051"
+    }]
+  },
+
+  {
+    "id": "CH05_04-051",
+    "title": "Do you wish to withdraw your appeal?",
+    "header": "Do you wish to withdraw your appeal?",
+    "template": "CH0X_04",
+    "image": "assets/chapter5/images/person withdraw-01.png",
+    "content" : "",
+    "buttons": [{
+      "text": "Yes",
+      "linkto": "CH05_03-052"
+    }, {
+      "text": "No",
+      "linkto": "CH05_03-053"
+    }]
+  },
+
+  {
+    "id": "CH05_03-052",
+    "title": "No further action on Subsidiary Protection Status Appeal",
+    "header": "No further action on Subsidiary Protection Status Appeal",
+    "template": "CH0X_03",
+    "image": "assets/chapter5/images/subsidiary greek resident-01.png",
+    "content" : "No further action is required.  You will remain on subsidiary protection status",
+    "buttons": [{
+      "text": "Left",
+      "linkto": "CH05_04-051"
+    }, {
+      "text": "Right",
+      "linkto": "endAsylum_07-001"
+    }]
+  },
+
+  {
+    "id": "CH05_02-053",
+    "title": "Continue with Subsidiary Protection Appeal",
+    "header": "Continue with Subsidiary Protection Appeal",
+    "template": "CH0X_02",
+    "image": "assets/chapter5/images/person talking to uniformed personnel athens-01.png",
+    "content" : "Please note your appeal will be examined by an Independent Appeals Authority based in Athens and not by the Regional Asylum Office in Lesvos or any of the Regional Asylum Offices or regional Asylum Office dispatched units.",
+    "buttons": [{
+      "text": "Left",
+      "linkto": "CH05_04-051"
+    }, {
+      "text": "Right",
+      "linkto": "CH05_02-054"
+    }]
+  },
+
+  {
+    "id": "CH05_02-054",
+    "title": "Continue with Subsidiary Protection Appeal",
+    "header": "Continue with Subsidiary Protection Appeal",
+    "template": "CH0X_02",
+    "image": "assets/chapter5/images/judge and lawyer-01.png",
+    "content" : "The Independent Appeals Authority typically consists of two Administrative Appeals Court Justices and an UNHCR lawyer who review the applicant’s evidence from the registration, admissibility, and eligibility interviews as well as any other materials previously submitted to the Greek Asylum Service and contained in the applicant’s asylum file.",
+    "buttons": [{
+      "text": "Left",
+      "linkto": "CH05_02-053"
+    }, {
+      "text": "Right",
+      "linkto": "CH05_02-055"
+    }]
+  },
+
+  {
+    "id": "CH05_02-055",
+    "title": "Continue with Subsidiary Protection Appeal",
+    "header": "Continue with Subsidiary Protection Appeal",
+    "template": "CH0X_02",
+    "image": "assets/chapter5/images/uniformed personnel talking to woman-01.png",
+    "content" : "Please note the Independent Appeals Authority typically does not conduct an actual hearing of the applicant.\n\nAs you file your appeal at the Regional Asylum Office, you have the right to request that you want to be present during the examination of your asylum file by the Independent Appeals Authority.  This decision however entirely rests with the Independent Appeals Authority and they may decide that you will not be allowed to be present during the examination.",
+    "buttons": [{
+      "text": "Left",
+      "linkto": "CH05_02-054"
+    }, {
+      "text": "Right",
+      "linkto": "CH05_02-056"
+    }]
+  },
+
+  {
+    "id": "CH05_02-056",
+    "title": "Continue with Subsidiary Protection Appeal",
+    "header": "Continue with Subsidiary Protection Appeal",
+    "template": "CH0X_02",
+    "image": "assets/chapter5/images/person in court-01.png",
+    "content" : "In case the Independent Appeals Authority decides to call you for a hearing, you will be notified at least five working days before the date of the hearing.\n\nPlease note even if you do not present yourself before the Independent Appeals Authority, the examination of your appeal will proceed.  It is, however, highly recommended to appear in front of the Committee if they ask you to do so to support your case and obtain a more beneficial outcome for yourself.",
+    "buttons": [{
+      "text": "Left",
+      "linkto": "CH05_02-055"
+    }, {
+      "text": "Right",
+      "linkto": "CH05_02-057"
+    }]
+  },
+
+  {
+    "id": "CH05_02-057",
+    "title": "Continue with Subsidiary Protection Appeal",
+    "header": "Continue with Subsidiary Protection Appeal",
+    "template": "CH0X_02",
+    "image": "assets/chapter5/images/person and lawyer-01.png",
+    "content" : "You have the right to present yourself to the Independent Appeals Authority accompanied by a lawyer or other counselor, but it is not mandatory to have one as you appear in front of the Committee.\n\nIt is highly recommended to have a lawyer with you though, who is allowed to practice and represent you in Greece, as you appear in front of the Independent Appeals Authority to support your claims and assist you answering questions of the Committee.",
+    "buttons": [{
+      "text": "Left",
+      "linkto": "CH05_02-056"
+    }, {
+      "text": "Right",
+      "linkto": "CH05_02-058"
+    }]
+  },
+
+  {
+    "id": "CH05_02-058",
+    "title": "Continue with Subsidiary Protection Appeal",
+    "header": "Continue with Subsidiary Protection Appeal",
+    "template": "CH0X_02",
+    "image": "assets/chapter5/images/documents or evidence-01.png",
+    "content" : "You also have the right to submit additional evidence for the Independent Appeals Authority up to two days before your appeal is examined.  The Committee will take these evidence into consideration to make its decision accordingly if they are submitted in time.",
+    "buttons": [{
+      "text": "Left",
+      "linkto": "CH05_02-057"
+    }, {
+      "text": "Right",
+      "linkto": "CH05_02-059"
+    }]
+  },
+
+  {
+    "id": "CH05_02-059",
+    "title": "Continue with Subsidiary Protection Appeal",
+    "header": "Continue with Subsidiary Protection Appeal",
+    "template": "CH0X_02",
+    "image": "assets/chapter5/images/evidence and calendar 2 days-01.png",
+    "content" : "Please note you may request a postponement of the examination of your appeal up to two days before your appeal is examined if you have not been able to obtain an evidence you feel is crucial for your appeal, if you have been unable to secure a lawyer to be present with you during the appeal hearing, or if you have any other well-grounded reason.",
+    "buttons": [{
+      "text": "Left",
+      "linkto": "CH05_02-058"
+    }, {
+      "text": "Right",
+      "linkto": "CH05_02-060"
+    }]
+  },
+
+  {
+    "id": "CH05_02-060",
+    "title": "Continue with Subsidiary Protection Appeal",
+    "header": "Continue with Subsidiary Protection Appeal",
+    "template": "CH0X_02",
+    "image": "assets/chapter5/images/person in court-01.png",
+    "content" : "The Independent Appeals Authority will examine your request for postponement and decide whether to proceed with the examination of your appeal on the original date or postpone it to a later one.\n\nOn the day of the examination of your appeal, the Independent Appeals Authority will decide – on the basis of all evidence and the answers provided in case a hearing takes place – whether to grant you refugee status or subsidiary protection status or reject your appeal. ",
+    "buttons": [{
+      "text": "Left",
+      "linkto": "CH05_02-059"
+    }, {
+      "text": "Right",
+      "linkto": "CH05_02-061"
+    }]
+  },
+
+  {
+    "id": "CH05_02-061",
+    "title": "Continue with Subsidiary Protection Appeal",
+    "header": "Continue with Subsidiary Protection Appeal",
+    "template": "CH0X_02",
+    "image": "assets/chapter5/images/walking away with x-01.png",
+    "content" : "Please note you may decide to withdraw your appeal anytime while awaiting the decision of the Independent Appeals Authority.  This however means, upon withdrawal of your appeal, you will not be able to obtain asylum status and will remain on subsidiary protection status.",
+    "buttons": [{
+      "text": "Left",
+      "linkto": "CH05_02-050"
+    }, {
+      "text": "Right",
+      "linkto": "CH05_04-062"
+    }]
+  },
+
+  {
+    "id": "CH05_04-062",
+    "title": "Do you wish to withdraw your appeal?",
+    "header": "Do you wish to withdraw your appeal?",
+    "template": "CH0X_04",
+    "image": "assets/chapter5/images/person withdraw-01.png",
+    "content" : "",
+    "buttons": [{
+      "text": "Yes",
+      "linkto": "CH05_03-052"
+    }, {
+      "text": "No",
+      "linkto": "CH05_02-063"
+    }]
+  },
+
+  {
+    "id": "CH05_02-063",
+    "title": "Awaiting Appeal Results (Subsidiary Protection Status)",
+    "header": "Awaiting Appeal Results (Subsidiary Protection Status)",
+    "template": "CH0X_02",
+    "image": "assets/chapter5/images/uniformed personnel talking to woman-01.png",
+    "content" : "While you are awaiting the Independent Appeals Authority’s decision, you may provide new, substantial evidence to the Greek Asylum Service that you previously did not provide.  The Asylum Service will forward this evidence to the Independent Appeals Authority for their examination and take them into consideration as they make their decision on your asylum application.\n\nBetween a few weeks and several months following the examination of your appeal, the Independent Appeals Authority will decide whether to grant you asylum status or reject your application.",
+    "buttons": [{
+      "text": "Left",
+      "linkto": "CH05_04-062"
+    }, {
+      "text": "Right",
+      "linkto": "CH05_02-064"
+    }]
+  },
+
+  {
+    "id": "CH05_02-064",
+    "title": "Awaiting Appeal Results (Subsidiary Protection Status)",
+    "header": "Awaiting Appeal Results (Subsidiary Protection Status)",
+    "template": "CH0X_02",
+    "image": "assets/chapter5/images/uniformed personnel w thought bubble calling-01.png",
+    "content" : "The Asylum Service will contact you regarding the Independent Appeals Authority’s decision on your asylum application through the contact information you provided them during the registration, admissibility and eligibility interviews.  You may be contacted via telephone, letter, e-mail, fax, or in person, as you renew your ausweis.\n\nPlease note the Asylum Service will notify you of the decision in your mother tongue or previously indicated preferred language in writing or orally with the assistance of an interpreter.",
+    "buttons": [{
+      "text": "Left",
+      "linkto": "CH05_02-063"
+    }, {
+      "text": "Right",
+      "linkto": "CH05_02-065"
+    }]
+  },
+
+  {
+    "id": "CH05_02-065",
+    "title": "Awaiting Appeal Results (Subsidiary Protection Status)",
+    "header": "Awaiting Appeal Results (Subsidiary Protection Status)",
+    "template": "CH0X_02",
+    "image": "assets/chapter5/images/greek resident-01.png",
+    "content" : "If you obtain asylum status, you may receive a residence permit in Greece for three years.  You will be able to live and work in Greece where you were granted asylum status and your family can also join you immediately.\n\nYou may also extend your residence permit in Greece if you meet certain language and financial sustainability criteria.",
+    "buttons": [{
+      "text": "Left",
+      "linkto": "CH05_02-064"
+    }, {
+      "text": "Right",
+      "linkto": "CH05_04-066"
+    }]
+  },
+
+  {
+    "id": "CH05_04-066",
+    "title": "Which are you interested in learning more about?",
+    "header": "Which are you interested in learning more about?",
+    "template": "CH0X_04",
+    "image": "",
+    "content" : "",
+    "buttons": [{
+      "text": "Asylum Status",
+      "linkto": "CH05_02-067"
+    }, {
+      "text": "Rejected Application",
+      "linkto": "CH05_03-070"
+    }]
+  },
+
+  {
+    "id": "CH05_02-067",
+    "title": "Learn More About: Asylum Status (Appeal)",
+    "header": "Learn More About: Asylum Status (Appeal)",
+    "template": "CH0X_02",
+    "image": "assets/chapter5/images/greek resident-01.png",
+    "content" : "If the decision of the Independent Appeals Authority is to grant you asylum status, you will be recognized as a refugee.\n\nYou may apply for a residence card and travel document (passport) in Greece where you were granted asylum status.",
+    "buttons": [{
+      "text": "Left",
+      "linkto": "CH05_02-066"
+    }, {
+      "text": "Right",
+      "linkto": "CH05_02-068"
+    }]
+  },
+
+  {
+    "id": "CH05_02-068",
+    "title": "Learn More About: Asylum Status (Appeal)",
+    "header": "Learn More About: Asylum Status (Appeal)",
+    "template": "CH0X_02",
+    "image": "assets/chapter5/images/person w home and greece flag-01.png",
+    "content" : "Your residence permit in Greece will be valid for three years and you may seek extension of it online through the website of the Hellenic Ministry of Migration Policy or you may seek naturalization after three years of legal residency in Greece if you meet certain financial sustainability and language criteria.\n\nYou will be allowed to live and work in Greece.",
+    "buttons": [{
+      "text": "Left",
+      "linkto": "CH05_02-067"
+    }, {
+      "text": "Right",
+      "linkto": "CH05_02-069"
+    }]
+  },
+
+  {
+    "id": "CH05_02-069",
+    "title": "Learn More About: Asylum Status (Appeal)",
+    "header": "Learn More About: Asylum Status (Appeal)",
+    "template": "CH0X_02",
+    "image": "assets/chapter5/images/greek resident-01.png",
+    "content" : "With the travel document you were granted, you may freely travel out of Greece.  You must however stay in Greece for at least three months in every six month-long period. (For example, you may leave Greece for three months between January and June).\n\nYour family members may also live and work with you in Greece.",
+    "buttons": [{
+      "text": "Left",
+      "linkto": "CH05_02-068"
+    }, {
+      "text": "Right",
+      "linkto": "endAsylum_07-001"
+    }]
+  },
+
+  {
+    "id": "CH05_02-070",
+    "title": "Learn More About: Rejection of Asylum Application (Appeal of Subsidiary Protection Status)",
+    "header": "Learn More About: Rejection of Asylum Application (Appeal of Subsidiary Protection Status)",
+    "template": "CH0X_02",
+    "image": "assets/chapter5/images/document w rejected text-01.png",
+    "content" : "If your asylum application has been rejected by the Independent Appeals Authority, you may either accept their decision or appeal against it to obtain asylum status.\n\nIf you decide to accept a rejection of your asylum application, you will remain on subsidiary protection status.",
+    "buttons": [{
+      "text": "Left",
+      "linkto": "CH05_04-066"
+    }, {
+      "text": "Right",
+      "linkto": "CH05_04-071"
+    }]
+  },
+
+  {
+    "id": "CH05_04-071",
+    "title": "Do you wish to appeal the decision of the Independent Appeals Authority?",
+    "header": "Do you wish to appeal the decision of the Independent Appeals Authority?",
+    "template": "CH0X_04",
+    "image": "",
+    "content" : "",
+    "buttons": [{
+      "text": "Yes",
+      "linkto": "CH06_01-001"
+    }, {
+      "text": "No",
+      "linkto": "CH05_03-052"
+    }]
+  }
+]

@@ -1,0 +1,21 @@
+[
+  {
+    "countryName" : "Afghanistan",
+    "image" : "assets/registration/images/flags/Afghanistan.png"
+  },
+
+  {
+    "countryName" : "Austria",
+    "image" : "assets/registration/images/flags/Austria-01.png"
+  },
+
+  {
+    "countryName" : "Belgium",
+    "image" : "assets/registration/images/flags/Belgium-01.png"
+  },
+
+  {
+    "countryName" : "Bulgaria",
+    "image" : "assets/registration/images/flags/Bulgaria-01.png"
+  }
+]
